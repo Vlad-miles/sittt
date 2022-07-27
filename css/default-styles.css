@@ -22,7 +22,7 @@ img {
 
 
 .card {
-	min-height: 100vh;
+	min-height: 100%;
 	background: url(../img/fon1.png) no-repeat center;
     background-size: cover;
     padding-top: -100 px;
