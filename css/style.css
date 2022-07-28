@@ -956,6 +956,36 @@ line-height: 22px;
 
  
 /* team styles end */
+.slider{
+overflow: hidden;
+width: 100%;
 
 
+}
+.slider-wrapper{
+    display: flex;
+    width: 100%;
+height: 100%;
 
+}
+.slide{
+
+flex-shrink: 0;
+}
+.swiper-pagination-bullet {
+	width: 10px;
+	height: 10px;
+	margin: 0 15px;
+	background-color: tomato;
+	opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: navy;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	position: static;
+	margin-left: 10px;
+}
