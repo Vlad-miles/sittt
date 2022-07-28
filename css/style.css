@@ -792,10 +792,10 @@ line-height: 33px;
 
 /* Tours styles end */
 
-/* Benefits styles start */
+/* team styles start */
 
 .team{
-    margin-bottom: 131px;
+    margin-bottom: 0px;
 }
 
 .team__title{
@@ -872,6 +872,90 @@ line-height: 22px;
 .team__card-more:hover, .team__card-more:focus, .team__card-more:active{
     background: #b88627;
 }
+.questions{
+ min-height: 100vh;
+    
 
-/* Benefits styles end */
+
+}
+.questions-back{
+    height: 488px;
+   background: url(../img/svg/lodka.svg) no-repeat center;
+    background-size: cover;
+    
+}
+.questions-wrapp{
+
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.questions-title{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    min-width: 547px; 
+    color: #FFFFFF;
+
+
+}
+.questions-title1{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 129.19%;
+    
+    color: #FFFFFF;
+
+}
+.decor {
+    position: relative;
+    max-width: 547px; 
+ }
+
+
+ .form-inner {
+    padding: 50px;
+ }
+ .form-inner input {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: rgba(185, 185, 185, 0.64);
+    line-height: 40px;
+    border-width: 0;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ 
+ .form-inner h3 {
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #707981;
+ }
+ .questions-more-inf{
+    padding: 34px 0px 0px 0px;
+    margin: 0 auto;
+}
+.questions-more{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+        background: #F1B74C;
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 15px;
+}
+
+.questions-more:hover, .questions-more:focus, .questions-more:active{
+    background: #b88627;
+}
+
+ 
+/* team styles end */
+
+
 
