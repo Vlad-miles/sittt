@@ -792,4 +792,86 @@ line-height: 33px;
 
 /* Tours styles end */
 
+/* Benefits styles start */
+
+.team{
+    margin-bottom: 131px;
+}
+
+.team__title{
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+
+color: #2f3b5b;
+text-shadow: 23px -8px #2f3b5b9e  ;
+	padding: 0px 0px 52px 0px;
+}
+
+.team__cards{
+    
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 55px 1fr 55px 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 55px;  
+    min-width: 288px;
+    min-height: 360px;
+    
+}
+
+.team__card{
+    
+    -ms-grid-column-span: 1;
+    grid-column: span 1;
+    border: 2px solid #BEBEBE;
+    margin-bottom: 112px;
+}
+
+.team__card-pic{
+    max-width: 183px;
+    padding: 21px 0px 8px 0px;
+    margin: 0 auto;
+}
+.benefits__card-thumb{
+    display: block;
+}
+
+.team__card-title{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #37425F;
+    padding: 0px 0px 8px 85px;
+}
+
+.team__card-desc{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #37425F;
+    padding: 8px 34px 24px 24px;
+    margin: 0 auto;
+}
+.team-more-inf{
+    padding: 0px 0px 24px 45px;
+    margin: 0 auto;
+}
+.team__card-more{
+    display: inline-block;
+    font-weight: 400;
+font-size: 19px;
+line-height: 22px;
+        background: #F1B74C;
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 15px;
+}
+
+.team__card-more:hover, .team__card-more:focus, .team__card-more:active{
+    background: #b88627;
+}
+
+/* Benefits styles end */
 
