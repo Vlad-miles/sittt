@@ -1,31 +1,26 @@
-const slider = document.querySelector('.swiper-container');
+jQuery( function( $ ) {
+	new Swiper( '.carousel-slider', {
+		slidesPerView: 3,
+		spaceBetween: 40,
+	} );
+	const sliderIntro = new Swiper( '.intro-slider', {
+		slidesPerView: 1,
+		spaceBetween: 10,
+		pagination:{
+			el: '.swiper-pagination',
+			type: 'bullets',
+			clickable: true,
+		},
+		loop: true,
+		effect: 'fade',
+		fadeEffect: {
+			crossFade: true
+		},
+		autoplay: {
+			delay: 3000,
+		},
+	} );
 
-var mySwiper = new Swiper('.swiper1', {
-	slidesPerView: 1,
-	spaceBetween: 10,
-	pagination:{
-		el: '.swiper-pagination',
-		type: 'bullets',
-		
-	},
-	loop: true,
-	// effect: 'fade',
-	autoplay: {
-		delay: 3000,
-	},
-})
-var swiper = new Swiper('.swiper2', {
-
-    slidesPerView: 'auto',
-    centeredSlides: true,
-    spaceBetween: 15,
-    initialSlide: 4,
-	slideClass:'slide',
-	wrapperClass:'slider-wrapper',
-
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-
-    },
-  });
+	// ES6 - можно без объявления переменной, просто следующим образом:
+	
+} );
