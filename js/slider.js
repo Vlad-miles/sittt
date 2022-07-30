@@ -3,6 +3,26 @@ jQuery( function( $ ) {
 		slidesPerView: 3,
 		spaceBetween: 40,
 	} );
+	new Swiper( '.carousel-slider1', {
+		slidesPerView: 3,
+		spaceBetween: 40,
+		pagination:{
+			el: '.swiper-pagination',
+			type: 'bullets',
+			clickable: true,
+		},
+	} );
+
+	new Swiper( '.carousel-slider_gabion', {
+		slidesPerView: 3,
+		spaceBetween: 40,
+		pagination:{
+			el: '.swiper-pagination',
+			type: 'bullets',
+			clickable: true,
+		},
+	} );
+
 	const sliderIntro = new Swiper( '.intro-slider', {
 		slidesPerView: 1,
 		spaceBetween: 10,
