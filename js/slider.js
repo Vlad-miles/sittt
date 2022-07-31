@@ -40,6 +40,23 @@ jQuery( function( $ ) {
 			delay: 3000,
 		},
 	} );
+	 new Swiper( '.way-slider', {
+		slidesPerView: 1,
+		spaceBetween: 10,
+		pagination:{
+			el: '.swiper-pagination',
+			type: 'bullets',
+			clickable: true,
+		},
+		loop: true,
+		effect: 'fade',
+		fadeEffect: {
+			crossFade: true
+		},
+		autoplay: {
+			delay: 3000,
+		},
+	} );
 
 	// ES6 - можно без объявления переменной, просто следующим образом:
 	
