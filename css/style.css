@@ -736,6 +736,8 @@ body {
 .tours {
   margin-bottom: 139px;
 }
+
+
 .tours_topic {
   margin-bottom: 10px;
   font-weight: 800;
@@ -778,6 +780,10 @@ body {
   margin-right: 47px;
 }
 .tour__info {
+  width: 454px;
+  height: 410px;
+  background: url(../img/svg/Ellipse.svg) no-repeat;
+  box-shadow: 0 0 10px 49px rgba(255, 255, 255, 0.329) inset;
   padding-left: 47px;
 }
 
@@ -1557,6 +1563,195 @@ color: #FFFFFF;
 
 /* recall styles end */
 
+/* buryatia styles start */
+
+.buryatia {
+  margin-bottom: 139px;
+}
+.buryatia_topic {
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+
+  color: #2f3b5b;
+  text-shadow: 80px -10px #2f3b5b7e;
+  padding: 70px 70px 70px 68px;
+}
+
+.buryatia__tour {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 108px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 108px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  
+  margin-bottom: 120px;
+}
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  max-width: 716px;
+  min-height: 600px;
+}
+#navbar li {
+  width: 100%;
+ background: url(../img/svg/galozka-Vector.svg) no-repeat;
+ background-position: 0% 50%;
+}
+#navbar a {
+  font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+  color: #37425F;
+  
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  padding: 5px 0px 5px 25px;
+}
+#navbar li:hover,#navbar li:focus,#navbar li:active {
+  background: url(../img/svg/active-galozka.svg) no-repeat;
+  background-position: 2% 50%;
+  color: #6A9BA8;
+}
+#navbar a:hover,#navbar a:focus,#navbar a:active {
+  color: #6A9BA8;
+}
+
+.buryatia__info{
+  padding: 0px 0px 10px 600px;
+  width: 526px;
+height: 681px;
+  background: url(../img/svg/about-Buryatia.svg) no-repeat;
+  box-shadow: 0 0 70px 70px rgba(255, 255, 255, 0.719) inset;
+
+}
+
+.buryatia__title {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #37425F;
+  margin-bottom: 12px;
+}
+.buryatia__card-title1 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #37425F;
+  margin-bottom: 12px;
+}
+.buryatia_text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #37425F;
+  margin-bottom: 12px;
+}
+
+
+
+
+/* buryatia styles end */
+
+/* often styles start */
+
+.often-backg{
+  height: 100%;
+  background: #37425F;
+}
+.toggler__label::selection {
+  color: none;
+  background: none;
+}
+.often-backg{
+  padding: 0px 98px 0px 98px;
+}
+.often-title{
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+
+  color: #ffffff;
+  text-shadow: 45px -10px #ffffff7e;
+  padding: 70px 0px 20px 0px;
+}
+.toggler {
+  padding: 0px 0px 27px 0px;
+}
+.toggler1 {
+  padding: 0px 0px 80px 0px;
+}
+
+
+/* Стили для заголовка блока, при нажатии на который появляется дополнительный блок */
+.toggler__label {
+  content: "";
+  display: block;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 1.1em;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/* скрытый блок позиционируется абсолютно, чтобы не оставлять пустое место */
+.toggler__content-box  {
+  position: absolute;
+  transform: translate(9999px);
+  opacity: 0;  
+}
+
+/* скрываем checkbox */
+.toggler__checkbox {
+  display: none;
+}
+
+/* при нажатии на блок label (каждый label через аттрибут for привязан к конкретному чекбоксу посредством уникального id)
+чекбокс меняет свое состояние (но мы этого не видим, так как скрыли его)
+и элемент с классом .toggler__content-box, ближайший к нажатому чекбоксу, плавно выдвигается, отображаяя
+свое содержимое. */
+.toggler__checkbox:checked ~ .toggler__content-box {
+  display: block;
+  position: relative;
+
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  transition: opacity .5s linear;  
+  transform:translate(0);
+  opacity: 1;
+
+  margin-top:0px;
+  cursor: pointer;
+  border-radius: 0px 0px 10px 10px;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.often__headline::before {
+  content: "";
+  position: absolute;
+  left: -18px;
+  top: 4px;
+  border: 6px solid #a2991e;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+
+
+
+/* often styles end */
 
 /* Footer styles start */
 
