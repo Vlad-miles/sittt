@@ -1658,6 +1658,104 @@ height: 681px;
 
 
 /* buryatia styles end */
+.namely_buryatia{
+  width: 100%;
+  height: 100%;
+  background: url(../img/svg/background-desktop20.svg)  no-repeat scroll 130% 50%; 
+  
+}
+.namely_buryatia-wrapper{
+
+  padding-top: 25px;
+  max-width: 1440px;
+  margin-bottom: 100px;
+  margin: 0 auto;
+  background: #37425F;
+}
+.namely_buryatia_topic{
+
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+
+  color: #ffffff;
+  text-shadow: 70px -10px #ffffff7e;
+  padding: 70px 70px 70px 68px;
+
+}
+.namely_buryatia-block{
+  width: 100%;
+  height: 163px;
+  
+  background: rgb(255, 255, 255);
+}
+.namely_buryatia__title{
+  font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+padding: 11px 0px 9px 17px;
+color: #37425F;
+}
+.namely_buryatia__title1{
+  font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+padding: 0px 0px 0px 17px;
+color: #37425F;
+}
+.namely_buryatia_tour{
+display: -ms-grid;
+display: grid;
+-ms-grid-columns: 1fr 108px 1fr;
+grid-template-columns: repeat(2, 1fr);
+column-gap: 0px;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+padding: 10px 70px 23px 68px;
+
+}
+.namely_buryatia-thumb{
+  height: 163px;
+
+}
+.namely_buryatia-thumb1{
+  padding: 210px 70px 23px 68px;
+}
+.namely__buryatia-cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 55px 1fr 55px 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 50px;
+  min-width: 288px;
+}
+
+.namely__buryatia-card {
+  -ms-grid-column-span: 1;
+  grid-column: span 1;
+  
+
+}
+.namely_buryatia-text{
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #FFFFFF;
+  
+  
+}
+.namely_buryatia-text1{
+  width: 350px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
 
 /* often styles start */
 
