@@ -25,7 +25,7 @@ img {
 	min-height: 100%;
 	background: url(../img/fon1.png) no-repeat center;
     background-size: cover;
-    padding-top: -100 px;
+    padding-top: -100px;
     padding-bottom: 0px;
 
 }
@@ -33,7 +33,7 @@ img {
 	min-height: 100%;
 	background: url(../img/Buryatia-fon1.png) center;
     background-size: cover;
-    padding-top: -100 px;
+    padding-top: -100px;
     padding-bottom: 0px;
 
 }
@@ -67,9 +67,11 @@ img {
 	align-items: center;
 	width: 100%;
 	margin-bottom: 30px;
+	
 }
 
 .slider-buttons {
 	display: flex;
 	align-items: center;
+	
 }
