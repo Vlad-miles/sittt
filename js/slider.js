@@ -30,6 +30,7 @@ jQuery( function( $ ) {
 			el: '.swiper-pagination',
 			type: 'bullets',
 			clickable: true,
+		
 		},
 		loop: true,
 		effect: 'fade',
@@ -44,10 +45,15 @@ jQuery( function( $ ) {
 		slidesPerView: 1,
 		spaceBetween: 10,
 		pagination:{
-			el: '.swiper-pagination',
+			el: '.swiper-pagination1',
 			type: 'bullets',
 			clickable: true,
+			
 		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		  },
 		loop: true,
 		effect: 'fade',
 		fadeEffect: {
