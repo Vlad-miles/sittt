@@ -2165,7 +2165,7 @@ line-height: 28px;
 /* Footer styles end */
 
 
-
+/* Облака                           */
 .bg-ex-sky {
   position: absolute;
   top: 720px;
@@ -2184,3 +2184,21 @@ line-height: 28px;
   from { background-position: 800px 0; }
   to { background-position: 0 0; }
 }
+.bg-ex-sky2 {
+  position: absolute;
+  top: 250px;
+  right: 0px;
+  background: url('../img/clouds/cloud-03.png') ; 
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  
+  animation: animated-sky2 40s linear infinite;
+  
+  width: 1440px;
+  height: 350px;
+}
+@keyframes animated-sky2 {
+  from { background-position: 800px 0; }
+  to { background-position: 0 0; }
+}
+/* Облака                           */
