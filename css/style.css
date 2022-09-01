@@ -446,7 +446,22 @@ textarea {
 }
 
 /* swiper-bullets styling */
-
+/*
+  ... стандартные правила CSS ...
+  например, выводим карточки товаров по 4 в ряд
+*/
+@media (max-width:768px) {
+  /*
+    ... правила для планшетов ...
+    выводим карточки товаров по 2 в ряд
+  */
+}
+@media (max-width:320px) {
+  /*
+    ... правила для смартфонов ...
+    выводим карточки товаров по 1 в ряд
+  */
+}
 body {
   font-family: "Lato";
   font-style: normal;
@@ -914,7 +929,7 @@ content: url(../img/svg/lypa.svg) ;
 
 /* Tours styles end */
 
-/* team styles start */
+/* team styles start  Наша команда*/
 
 .team {
   margin-bottom: 0px;
@@ -1067,7 +1082,7 @@ content: url(../img/svg/lypa.svg) ;
   background: #b88627;
 }
 
-/* team styles end */
+/* team styles end Наша команда*/
 
 /* near styles start */
 .near{
@@ -1196,7 +1211,8 @@ color: #37425F;
 
 /* near styles end */
 
-/* organize styles start */
+/* organize styles start ВСЁ УЖЕ
+ОРГАНИЗОВАНО!*/
 
 .organize{
   position: relative;
@@ -1325,7 +1341,8 @@ padding: 0px 0px 0px 18px;
 }
 
 
-/* organize styles end */
+/* organize styles end ВСЁ УЖЕ
+ОРГАНИЗОВАНО!*/
 
 
 
@@ -1354,6 +1371,8 @@ padding: 0px 0px 0px 18px;
 }
 
 .gallery__info{
+ 
+  
   padding-left: 47px;
 }
 
@@ -1491,13 +1510,13 @@ border-radius: 10px;
 
 
 .swiper-button-prev{
-  position: static;
-left: 20px;
+  position: absolute;
+ 
+  background: rgb(114, 215, 255);
 }
 .swiper-button-next {
-  position: static;
- top: 110px;
- left: 20px;
+  position: absolute;
+
   background: #000;
 }
 
@@ -1760,6 +1779,54 @@ color: #FFFFFF;
 }
 
 /* recall styles end */
+
+/* travel styles start    Путеводитель */
+.travel{
+  margin-bottom:10px;
+}
+.travel-wrapper {
+  padding-top: 25px;
+  max-width: 1440px;
+  margin-bottom:101px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+
+.travel__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.travel__item {
+  margin-right: 55px;
+  
+}
+.travel__item:last-child {
+  margin-right: 0;
+}
+.travel__link {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #37425F;
+}
+.travel_h1{
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+  color: #37425F;
+
+}
+.travel_h2{
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  
+  color: #37425F;
+
+}
+/* travel styles end   Путеводитель*/
 
 /* buryatia styles start */
 
@@ -2049,6 +2116,10 @@ padding: 10px 70px 23px 68px;
 
 /* often styles end */
 
+
+
+
+
 /* Footer styles start */
 
 .footer{
@@ -2164,6 +2235,214 @@ line-height: 28px;
 
 /* Footer styles end */
 
+/* 3 страница начало */
+/*  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  */
+/*  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  */
+/*  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  */
+
+
+
+/* bashkara start            озеро Башкар*/
+.bashkara {
+  margin-bottom: 0px;
+}
+
+.animation{
+  font-weight: 800;
+  font-size: 150px;
+  line-height: 176px;
+
+}
+.bashkara_topic {
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+
+  color: #2f3b5b;
+  
+  padding: 10px 70px 10px 0px;
+}
+.bashkara_topic1 {
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+
+  color: #2f3b5b;
+  text-shadow: 19px -11px #2f3b5b9e;
+  padding: 0px 0px 0px 0px;
+}
+
+.bashkara__tour1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 108px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 108px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 77px;
+  border: 1px solid #BEBEBE;
+  padding: 20px 0px 0px 0px;
+}
+.bashkara__tour {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 37px;
+}
+.bashkara__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bashkara__item1 {
+  padding-left: 0px;
+  margin-right: 0px;
+}
+.bashkara_text{
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  
+  color: #37425F;
+  padding: 55px 0px 25px 0px;
+}
+.bashkara_h1{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  
+  color: #37425F;
+  
+}
+.bashkara__lil {
+  position: relative;
+  font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+padding: 20px 10px 20px 0px;
+color: #37425F;
+  margin: 0 auto;
+}
+.bashkara_lil {
+  position: relative;
+  font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+top: -30px ;
+right: 25px;
+padding: 20px 0px 20px 0px;
+color: #37425F;
+  margin: 0 auto;
+}
+.bashkara_lil1 {
+  position: relative;
+  font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+top: -35px ;
+right: 60px;
+padding: 20px 0px 20px 0px;
+color: #37425F;
+  margin: 0 auto;
+}
+
+
+.bashkara_icon22{
+  position:absolute;
+  top: 20px;
+  right: 250px;
+}
+.bashkara_icon{
+  position: relative;
+  
+  top: -10px;
+right: -100px;
+  min-width: 20px;
+  height:100%;
+}
+.bashkara_icon:hover .bashkara_tukoidsa{
+  display:block;
+  position:absolute;
+  top: -140px;
+  right: 170px;
+  z-index:99;
+  width:173px;
+}
+.bashkara_tukoidsa{
+  display:none;
+  font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+  margin-left:-350px;
+  padding:10px;
+  margin-top:17px;
+  border-radius: 10px;
+  background:#f3f3f3;
+  height:130px;
+  border: 2px solid #37425F;
+}
+.bashkara_icon1{
+  min-width: 20px;
+  height:100%;
+}
+.bashkara_pic{
+  position: relative;
+  margin-bottom: 0 auto;
+}
+.bashkara_pic2{
+  position: absolute;
+  top:66px;
+  right: -30px;
+  padding: 0px 0px 0px 0px;
+}
+.bashkara_mountain{
+  position: relative;
+width: 619.9px;
+height: 535px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.bashkara__h1{
+  
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #37425F;
+
+}
+.bashkara__h2{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  
+  color: #37425F;
+}
+.bashkara__p1{
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  
+  color: #37425F;
+}
+/* bashkara end           озеро Башкар               */
+
+
+
+
+
+
+
+
+
+
 
 /* Облака                           */
 .bg-ex-sky {
@@ -2184,6 +2463,42 @@ line-height: 28px;
   from { background-position: 800px 0; }
   to { background-position: 0 0; }
 }
+.bg-ex-top{
+
+  position: absolute;
+  top: 1020px;
+  right: 160px;
+  background: url('../img/clouds/directions.png') no-repeat ; 
+  background-position: 0 0;
+  background-position-x: no-repeat;
+  
+  animation: animated-sky 40s linear infinite;
+  
+  width: 1440px;
+  height: 350px;
+
+}
+
+
+.bg-ex-gallery{
+width: 1440px;
+  height: 196px;
+  position: absolute;
+  top: -1120px;
+  right: 0px;
+  background: url('../img/clouds/gallery.png') no-repeat ; 
+  background-position: 0 0;
+  background-position-x: no-repeat;
+  
+  animation: animated-sky 40s linear infinite;
+  
+  
+
+}
+
+
+
+
 .bg-ex-sky2 {
   position: absolute;
   top: 250px;
