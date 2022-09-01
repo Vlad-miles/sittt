@@ -41,6 +41,7 @@ jQuery( function( $ ) {
 			delay: 3000,
 		},
 	} );
+	// Отзывы
 	 new Swiper( '.way-slider', {
 		slidesPerView: 1,
 		spaceBetween: 10,
