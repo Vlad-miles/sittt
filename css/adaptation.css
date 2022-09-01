@@ -1,104 +1,202 @@
- /*iPhone 13 Pro Max*/
-  /* 2778x1284 pixels at 458ppi */
-@media only screen 
-and (device-width: 428px) 
-and (device-height: 926px) 
-and (-webkit-device-pixel-ratio: 3) { 
-    .wrapper {
-        width:70%; 
-  }
-  .team__cards{
-    width:70%;
-  }
-  .wrapper-full{
-    width:70%; 
-  }
-  .organize-wrapper{
-    width:70%; 
-  }
-  .gallery-wrapper{
-    width:70%; 
-  }
-  .recall-wrapper{
-    width:70%; 
-  }
-  .questions-wrapp{
-    width:70%; 
-  }
+/* Media start */
+@media screen and (max-width: 1200px) {
+    .wrapper{
+        padding: 0 15px;
+    }
+    .header__wrapper{
+        padding: 0 15px;
+    }
 }
-@media(max-width: 767px){
-    .header__nav {
+@media screen and (max-width: 960px) {
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    .header__burger {
         display: block;
-        position: absolute;
-        top: 55px;
+    }
+    .header__wrapper {
+        padding-top: 28px;
+    }
+    .header__nav{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
         left: 0;
-        background: rgb(245, 246, 246);
-        box-shadow: #ccc;
+        background-color: #000;
+        z-index: 10;
+        padding: 75px;
+        -webkit-transform: translateX(100%);
+            -ms-transform: translateX(100%);
+                transform: translateX(100%);
+        -webkit-transition: .2s all linear;
+        -o-transition: .2s all linear;
+        transition: .2s all linear;
+    }
+    .header__nav_active{
+        -webkit-transform: translateX(0);
+            -ms-transform: translateX(0);
+                transform: translateX(0);
+    }
+    .header__item{
         width: 100%;
-        box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.37);
-        transition: all 0.4s ease;
-        left:-100%;
+        margin-right: 0;
+        margin-bottom: 30px;
     }
-    .header__menu {
-        display: block;
+    .header__item:last-child{
+        margin-bottom: 0;
     }
-    .header__nav.open-menu{
-        left:0;
+    .header__link{
+        font-size: 42px;
+        line-height: 48px;
     }
-    .header__menu li {
-        margin: 40px 0px 40px 33px;
-        font-size: 14px;
-        }
-    .menu-burger__header {
-        position: relative;
+    .header__nav-close{
         width: 40px;
-        height: 35px;
-        display: block;
-        margin-left: 10px;
-       }
-    .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
-        height: 3px;
-        width: 100%;
+        height: 40px;
         position: absolute;
-        background: #515758;
-        margin: 0 auto;
+        top: 20px;
+        right: 20px;
+        z-index: 11;
     }
-    .menu-burger__header span{
-        top: 16px;
+    .header__nav-close-line{
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
     }
-    .menu-burger__header:after, .menu-burger__header:before{
-        content: '';
+    .header__nav-close-line:first-child{
+        -webkit-transform: translateY(-50%) rotate(45deg);
+            -ms-transform: translateY(-50%) rotate(45deg);
+                transform: translateY(-50%) rotate(45deg);
     }
-    .menu-burger__header:after{
-        bottom: 5px;
+    .header__nav-close-line:last-child{
+        -webkit-transform: translateY(-50%) rotate(-45deg);
+            -ms-transform: translateY(-50%) rotate(-45deg);
+                transform: translateY(-50%) rotate(-45deg);
     }
-    .menu-burger__header:before{
-        top: 5px;
+    .intro {
+        padding-top: 125px;
     }
-    .menu-burger__header.open-menu span {
-        opacity:0; 
-        transition: 0.5s; 
-    }
-    .menu-burger__header.open-menu:before {
-        transform: rotate(38deg);
-        top: 16px;
-        transition: 0.4s;
-    }
-    .menu-burger__header.open-menu:after {
-        transform: rotate(-38deg);
-        bottom: 16px;
-        transition: 0.4s;
-    }
-    
-    header {
-        height: 60px;
-    }
-    .content-wrapper {
-        margin-top: 48px;
-    }
-    .fixed-pade {
-        overflow: hidden;
+    .intro_h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        font-weight: 800;
+font-size: 50px;
+line-height: 68px;
     }
     
-    
+    .intro_title{
+        position: relative;
+        font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+        
     }
+    .search-form__info{
+        position: relative;
+        top: 0px;
+    }
+    .intro__subtitle {
+        font-size: 14px;
+    }
+    .search-form__field{
+        width: 100%;
+        margin-right: 0;
+        padding-bottom: 12px;
+        background: transparent url(../img/svg/circle-ico.svg) no-repeat left 2px;
+    }
+    .search-form__field::-webkit-input-placeholder{
+        font-size: 16px;
+    }
+    .search-form__field::-moz-placeholder{
+        font-size: 16px;
+    }
+    .search-form__field:-ms-input-placeholder{
+        font-size: 16px;
+    }
+    .search-form__field::-ms-input-placeholder{
+        font-size: 16px;
+    }
+    .search-form__field::placeholder{
+        font-size: 16px;
+    }
+    .search-form__submit {
+        width: 100%;
+    }
+
+    
+    .tours {
+        margin-bottom: 76px;
+    }
+    .tour__pic, .tour__info {
+        -ms-grid-column-span: 2;
+        grid-column: span 2;
+    }
+    .tour__pic {
+        margin-bottom: 12px;
+    }
+    .top__card-title{
+        position: absolute;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 80px;
+        padding: 0px ;
+        left: 130px;
+    }
+    .top__card-title2{
+        position: absolute;
+        font-weight: 900;
+font-size: 65px;
+line-height: 80px;
+        padding: 0px ;
+        left: 130px;
+    }
+    .tour__pic_mob-first {
+        -ms-grid-row: -1;
+            grid-row-start: -1;
+    }
+    .tours__tour {
+        margin-bottom: 50px;
+    }
+    .top {
+        margin-bottom: 76px;
+    }
+    .top__card {
+        -ms-grid-column-span: 6;
+        grid-column: span 6;
+    }
+    .top__card-stats {
+        max-width: 386px;
+    }
+    .top__card-desc {
+        margin-bottom: 15px;
+    }
+    .footer__logo {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .footer__nav {
+        width: 100%;
+    }
+    .footerm__menu {
+        width: 50%;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   
+}
+@media screen and (max-width: 340px) {
+   
+}
+
+
+/* Media end */

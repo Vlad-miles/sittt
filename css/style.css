@@ -446,22 +446,7 @@ textarea {
 }
 
 /* swiper-bullets styling */
-/*
-  ... стандартные правила CSS ...
-  например, выводим карточки товаров по 4 в ряд
-*/
-@media (max-width:768px) {
-  /*
-    ... правила для планшетов ...
-    выводим карточки товаров по 2 в ряд
-  */
-}
-@media (max-width:320px) {
-  /*
-    ... правила для смартфонов ...
-    выводим карточки товаров по 1 в ряд
-  */
-}
+
 body {
   font-family: "Lato";
   font-style: normal;
@@ -474,11 +459,13 @@ body {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .wrapper-full {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 15px;
   background: #ffffff;
 }
 .line-intro{
@@ -553,6 +540,7 @@ top: 0px;
 }
 .swiper-wrapper {
 	height: 100%;
+  
 }
 .card {
 	width: 100%;
@@ -627,6 +615,36 @@ top: 0px;
 	left:56px;
 	top: 6px;
 content: url(../img/svg/lypa.svg) ;
+}
+.header__burger{
+  display: none;
+  width: 40px;
+  height: 28px;
+  position: relative;
+}
+
+.burger__line{
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+}
+
+.burger__line_first{
+  top: 0;
+}
+
+.burger__line_second{
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.burger__line_third{
+  bottom: 0;
 }
 /* head end */
 
@@ -1223,7 +1241,7 @@ color: #37425F;
 
   padding-top: 25px;
   max-width: 1440px;
-
+padding: 0 15px;
   margin: 0 auto;
   
 }
@@ -1354,6 +1372,7 @@ padding: 0px 0px 0px 18px;
 .gallery-wrapper {
   padding-top: 25px;
   max-width: 1440px;
+  padding: 0 15px;
   margin: 0 auto;
   background: #37425F;
 }
