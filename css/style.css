@@ -462,13 +462,13 @@ body {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 15px;
+  
 }
 
 .wrapper-full {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 15px;
+ 
   background: #ffffff;
 }
 .line-intro{
@@ -1259,7 +1259,7 @@ color: #37425F;
 
   padding-top: 25px;
   max-width: 1440px;
-padding: 0 15px;
+
   margin: 0 auto;
   
 }
@@ -1390,7 +1390,7 @@ padding: 0px 0px 0px 18px;
 .gallery-wrapper {
   padding-top: 25px;
   max-width: 1440px;
-  padding: 0 15px;
+  
   margin: 0 auto;
   background: #37425F;
 }
@@ -2483,6 +2483,7 @@ height: 535px;
 
 /* Облака                           */
 .bg-ex-sky {
+  overflow: visible;
   position: absolute;
   top: 720px;
   right: 0px;
@@ -2500,16 +2501,17 @@ height: 535px;
   from { background-position: 800px 0; }
   to { background-position: 0 0; }
 }
+/*   Наши направления          */
 .bg-ex-top{
-
+ 
   position: absolute;
   top: 1020px;
-  right: 160px;
+  right: 630px;
   background: url('../img/clouds/directions.png') no-repeat ; 
   background-position: 0 0;
-  background-position-x: no-repeat;
+  background-position-x: repeat;
   
-  animation: animated-sky 40s linear infinite;
+  animation: animated-sky 35s linear infinite;
   
   width: 1440px;
   height: 350px;
@@ -2518,6 +2520,7 @@ height: 535px;
 
 
 .bg-ex-gallery{
+  overflow: visible;
 width: 1440px;
   height: 196px;
   position: absolute;
@@ -2537,6 +2540,7 @@ width: 1440px;
 
 
 .bg-ex-sky2 {
+  overflow: visible;
   position: absolute;
   top: 250px;
   right: 0px;
