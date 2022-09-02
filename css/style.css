@@ -2485,7 +2485,7 @@ height: 535px;
 .bg-ex-sky {
   overflow: visible;
   position: absolute;
-  top: 720px;
+  top: 700px;
   right: 0px;
   background: url('../img/clouds/cloud-01.png') ; 
   background-position: 0 0;
@@ -2497,7 +2497,7 @@ height: 535px;
   height: 350px;
 }
 
-@keyframes animated-sky {
+@keyframes animated-top {
   from { background-position: 800px 0; }
   to { background-position: 0 0; }
 }
@@ -2506,18 +2506,20 @@ height: 535px;
  
   position: absolute;
   top: 1020px;
-  right: 630px;
+  right: -311px;
   background: url('../img/clouds/directions.png') no-repeat ; 
   background-position: 0 0;
-  background-position-x: repeat;
+
   
-  animation: animated-sky 35s linear infinite;
+  animation: animated-sky 4s linear infinite;
   
-  width: 1440px;
+  width: 100%;
   height: 350px;
 
 }
-
+@keyframes animated-sky {
+  from { background-position: 800px 0; }
+  to { background-position: 0 0; }
 
 .bg-ex-gallery{
   overflow: visible;
