@@ -2,7 +2,11 @@
    v2.0-modified | 20110126
    License: none (public domain)
 */
-
+@font-face {
+  font-family: Alegreya;
+  font-family: Roboto;
+  src: url(../fonts/);
+}
 html,
 body,
 div,
