@@ -1455,7 +1455,7 @@ padding: 0px 0px 0px 18px;
 
 /* recall styles start */
 .recall{
-  margin-bottom: 139px;
+  margin-bottom: 10px;
 }
 .recall-wrapper {
   padding-top: 25px;
@@ -1587,7 +1587,7 @@ border-radius: 10px;
 /* way styles start  Два направления  */
 .way{
   min-width: 1440px;
-  min-height: 1024px;
+  margin-bottom: 10px;
 }
 .way-title{
   font-weight: 900;
@@ -1763,7 +1763,8 @@ border-radius: 10px;
   margin: 0 auto;
 }
 .gabion-inf1{
-
+  position: relative;
+   top: -140px;
   padding: 0px 0px 20px 598px;
 
 }
