@@ -2,11 +2,9 @@
    v2.0-modified | 20110126
    License: none (public domain)
 */
-@font-face {
-  font-family: Alegreya;
-  font-family: Roboto;
-  src: url(../fonts/);
-}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 html,
 body,
 div,
@@ -118,6 +116,7 @@ section {
 
 body {
   line-height: 1;
+  
 }
 
 ol,
@@ -452,7 +451,7 @@ textarea {
 /* swiper-bullets styling */
 
 body {
-  font-family: "Lato";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.2;
@@ -590,6 +589,8 @@ top: 0px;
   margin-right: 0;
 }
 .header__link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 24px;
   line-height: 28px;
 }
@@ -666,6 +667,7 @@ content: url(../img/svg/lypa.svg) ;
   align-items: center;
 }
 .intro_h1 {
+  font-family: 'Alegreya', sans-serif;
   font-weight: 800;
   font-size: 80px;
   line-height: 109px;
@@ -673,6 +675,7 @@ content: url(../img/svg/lypa.svg) ;
   color: rgb(255, 255, 255);
 }
 .intro_title {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -686,6 +689,7 @@ content: url(../img/svg/lypa.svg) ;
 }
 
 .search-form__submit {
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 28px;
   color: rgb(255, 255, 255);
@@ -707,6 +711,7 @@ content: url(../img/svg/lypa.svg) ;
   margin-bottom: 20px;
 }
 .top__title {
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 10px;
   font-weight: 800;
   font-size: 40px;
@@ -722,6 +727,7 @@ content: url(../img/svg/lypa.svg) ;
   background: rgba(217, 217, 217, 0.8);
 }
 .top__card-title1 {
+  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 75px;
   line-height: 80px;
@@ -777,6 +783,7 @@ content: url(../img/svg/lypa.svg) ;
 }
 
 .top__card-title {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 100px;
   line-height: 80px;
@@ -784,6 +791,7 @@ content: url(../img/svg/lypa.svg) ;
   padding: 0px 160px 50px 0px;
 }
 .top__card-title2 {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 100px;
   line-height: 80px;
@@ -795,6 +803,7 @@ content: url(../img/svg/lypa.svg) ;
   margin: 0 auto;
 }
 .top__card-more {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 33px;
@@ -821,6 +830,7 @@ content: url(../img/svg/lypa.svg) ;
 
 .tours_topic {
   margin-bottom: 10px;
+  font-family: 'Roboto';
   font-weight: 800;
   font-size: 40px;
   line-height: 47px;
@@ -830,6 +840,7 @@ content: url(../img/svg/lypa.svg) ;
   padding: 70px 70px 70px 68px;
 }
 .tours_topic1 {
+  font-family: 'Roboto';
   margin-bottom: 10px;
   font-weight: 800;
   font-size: 40px;
@@ -914,6 +925,7 @@ content: url(../img/svg/lypa.svg) ;
 }
 
 .tours__card-title {
+  font-family: 'Roboto', sans-serif;
   font-weight: 800;
   font-size: 28px;
   line-height: 33px;
@@ -922,6 +934,7 @@ content: url(../img/svg/lypa.svg) ;
 }
 
 .tours__card-title1 {
+  font-family: 'Roboto', sans-serif;
   font-weight: 800;
   font-size: 28px;
   line-height: 33px;
@@ -930,6 +943,7 @@ content: url(../img/svg/lypa.svg) ;
 }
 
 .tours_text {
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
