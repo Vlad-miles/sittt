@@ -37,6 +37,9 @@
 // Оффер / заголовок страниц
 @import "./parts/offer.scss";
 
+// Адаптация (старый файл, не трогал его и заккоментировал)
+@import "./base/adaptation";
+
 .top {
   margin-bottom: 20px;
 }

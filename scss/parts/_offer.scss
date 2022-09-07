@@ -1,8 +1,14 @@
 section.section {
   &.offer {
     height: 100vh;
+    @media screen and (max-width: 1200px) {
+      height: auto;
+    }
     .section-content {
       height: 100%;
+      @media screen and (max-width: 1200px) {
+        padding-bottom: 39px;
+      }
       .intro_tour {
         height: calc(100% - 39px - 29px);
         position: relative;

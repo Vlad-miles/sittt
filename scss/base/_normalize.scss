@@ -115,6 +115,12 @@ body {
   line-height: 1;
   overflow-y: auto;
   overflow-x: hidden;
+  &.noscroll {
+    overflow: hidden !important;
+    .intro-pagination {
+      z-index: 0 !important;
+    }
+  }
 }
 
 ol,

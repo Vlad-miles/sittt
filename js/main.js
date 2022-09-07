@@ -70,25 +70,31 @@
 })();
 
 // Burger handler
-(function () {
-  const burgerItem = document.querySelector(".burger");
-  const menu = document.querySelector(".header__nav");
-  const menuCloseItem = document.querySelector(".header__nav-close");
-  const menuLinks = document.querySelectorAll(".header__link");
-  burgerItem.addEventListener("click", () => {
-    menu.classList.add("header__nav_active");
+jQuery( function ( $ ) {
+	const body = $( 'body' );
+  const burgerItem = $(".burger");
+  const menu = $(".header__nav");
+  const menuCloseItem = $(".header__nav-close");
+  const menuLinks = $(".header__link");
+  burgerItem.on( "click", function() {
+    menu.addClass("header__nav_active");
+	body.addClass('noscroll');
+	menu.slideDown();
   });
-  menuCloseItem.addEventListener("click", () => {
-    menu.classList.remove("header__nav_active");
+  menuCloseItem.on( "click", function() {
+    menu.removeClass("header__nav_active");
+	body.removeClass('noscroll');
+	menu.slideUp();
   });
   if (window.innerWidth <= 767) {
     for (let i = 0; i < menuLinks.length; i += 1) {
-      menuLinks[i].addEventListener("click", () => {
-        menu.classList.remove("header__nav_active");
+      menuLinks[i].on("click", function() {
+        menu.removeClass("header__nav_active");
+		body.removeClass('noscroll');
       });
     }
   }
-})();
+} );
 
 // Scroll to anchors
 (function () {
