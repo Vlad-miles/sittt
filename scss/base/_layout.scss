@@ -1,0 +1,29 @@
+/**
+ * Стили для отображения слоёв и контейнеров
+ */
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.wrapper-full {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  background: #ffffff;
+}
+
+.section {
+  width: 1440px;
+  height: 900px;
+  position: relative;
+  width: 100%;
+}
+
+.section-content {
+  position: relative;
+  overflow: visible;
+  z-index: 5;
+  color: #000;
+  padding: 39px 80px 0px 80px;
+}

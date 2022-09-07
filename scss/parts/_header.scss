@@ -1,0 +1,80 @@
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__item {
+  margin-right: 55px;
+  &:last-child {
+    margin-right: 0;
+  }
+  .header__link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+.header__item .search-txt1 {
+  overflow: hidden;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  padding: 5px 0px 5px 30px;
+  color: #37425f;
+}
+.search-box {
+  position: absolute;
+  padding: 0px 0px 0px 50px;
+}
+.search-btn {
+  color: black;
+  float: right;
+  width: 40px;
+  height: 40px;
+}
+.fa-solid {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 56px;
+  top: 6px;
+  content: url(../img/svg/lypa.svg);
+}
+.header__burger {
+  display: none;
+  width: 40px;
+  height: 28px;
+  position: relative;
+}
+
+.burger__line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+}
+
+.burger__line_first {
+  top: 0;
+}
+
+.burger__line_second {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.burger__line_third {
+  bottom: 0;
+}
