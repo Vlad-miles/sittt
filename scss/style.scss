@@ -48,7 +48,7 @@
   line-height: 47px;
 
   color: #2f3b5b;
-  text-shadow: 53px -11px #2f3b5b9e;
+  text-shadow: 53px -11px rgba($color: #2f3b5b, $alpha: 0.13);
   padding: 50px 0px 0px 60px;
 }
 .title-contener {
@@ -165,7 +165,7 @@
   line-height: 47px;
 
   color: #2f3b5b;
-  text-shadow: 129px -17px #2f3b5b9e;
+  text-shadow: 40px -20px rgba($color: #2f3b5b, $alpha: 0.13);
   padding: 70px 70px 70px 68px;
 }
 .tours_topic1 {
@@ -176,7 +176,7 @@
   line-height: 47px;
 
   color: #2f3b5b;
-  text-shadow: 19px -11px #2f3b5b9e;
+  text-shadow: 19px -11px rgba($color: #2f3b5b, $alpha: 0.13);
   padding: 0px 0px 0px 0px;
 }
 
@@ -307,7 +307,7 @@
   line-height: 47px;
 
   color: #2f3b5b;
-  text-shadow: 23px -8px #2f3b5b9e;
+  text-shadow: 23px -8px rgba($color: #2f3b5b, $alpha: 0.13);
   padding: 0px 0px 52px 0px;
 }
 
@@ -467,7 +467,7 @@
   line-height: 47px;
 
   color: #2f3b5b;
-  text-shadow: 71px -12px #2f3b5b9e;
+  text-shadow: 20px -10px rgba($color: #2f3b5b, $alpha: 0.13);
   padding: 0px 0px 44px 0px;
 }
 .near-more-inf {
@@ -699,8 +699,6 @@
 }
 .gallery-wrapper {
   padding-top: 25px;
-  max-width: 1440px;
-
   margin: 0 auto;
   background: #37425f;
 }
@@ -728,7 +726,7 @@
   line-height: 47px;
 
   color: #ffffff;
-  text-shadow: 45px -15px #ffffff79;
+  text-shadow: 20px -10px #ffffff30;
   padding: 0px 0px 0px 0px;
 }
 
@@ -759,7 +757,6 @@
 }
 .recall-wrapper {
   padding-top: 25px;
-  max-width: 1440px;
   margin: 0 auto;
   background: #37425f;
 }
@@ -775,7 +772,7 @@
   line-height: 47px;
 
   color: #ffffff;
-  text-shadow: 43px -9px #ffffff51;
+  text-shadow: 20px -10px #ffffff3c;
   padding: 0px 0px 0px 0px;
 }
 .recall__lil {
@@ -1558,7 +1555,7 @@
   line-height: 47px;
 
   color: #2f3b5b;
-  text-shadow: 19px -11px #2f3b5b9e;
+  text-shadow: 19px -11px rgba($color: #2f3b5b, $alpha: 0.13);
   padding: 0px 0px 0px 0px;
 }
 
