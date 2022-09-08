@@ -52,11 +52,11 @@
 
   color: #2f3b5b;
   text-shadow: 53px -11px rgba($color: #2f3b5b, $alpha: 0.13);
-  padding: 50px 0px 0px 60px;
+ text-align: left;
 }
 .title-contener {
-  width: 622px;
-  height: 174px;
+  width: 100%;
+  height: 100%;
   background: rgba(217, 217, 217, 0.8);
 }
 .top__card-title1 {
@@ -64,7 +64,8 @@
   font-weight: 900;
   font-size: 75px;
   line-height: 80px;
-  padding: 50px 70px;
+  text-align: center;
+  padding: 20px 10px 20px 10px ;
 }
 
 .top__cards {
@@ -78,7 +79,7 @@
 
 .top__card-pic {
   position: relative;
-  width: 622px;
+  width: 100%;
   margin-bottom: 13px;
 }
 
@@ -121,7 +122,9 @@
   font-size: 100px;
   line-height: 80px;
   color: #fff;
-  padding: 0px 160px 50px 0px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 10px 20px 10px ;
 }
 .top__card-title2 {
   font-family: "Roboto", sans-serif;
@@ -129,11 +132,12 @@
   font-size: 100px;
   line-height: 80px;
   color: #fff;
-  padding: 0px 0px 0px 55px;
+  margin: 0 auto;
+  text-align: center;
 }
 .card-more-inf {
-  padding: 13px 0px 20px 0px;
   margin: 0 auto;
+  margin-top: 5%;
 }
 .top__card-more {
   font-family: "Roboto", sans-serif;
