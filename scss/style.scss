@@ -53,6 +53,7 @@
   color: #2f3b5b;
   text-shadow: 53px -11px rgba($color: #2f3b5b, $alpha: 0.13);
  text-align: left;
+ margin-top: 1%;
 }
 .title-contener {
   width: 90%;
@@ -117,7 +118,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 0px 0px 284px 0px;
+  margin-bottom: 45%;
 }
 
 .top__card-title {
@@ -165,11 +166,11 @@
 /* Tours styles start */
 
 .tours {
-  margin-bottom: 139px;
+  margin-bottom: 1%;
 }
 
 .tours_topic {
-  margin-bottom: 10px;
+
   font-family: "Roboto";
   font-weight: 800;
   font-size: 40px;
@@ -177,7 +178,9 @@
 
   color: #2f3b5b;
   text-shadow: 40px -20px rgba($color: #2f3b5b, $alpha: 0.13);
-  padding: 70px 70px 70px 68px;
+    margin-top: 5%;
+  margin-left: 3%;
+  margin-bottom: 3%;
 }
 .tours_topic1 {
   font-family: "Roboto";
@@ -205,7 +208,7 @@
 
 .tours__list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-left: 2%;
 }
 .tours__card_pic{
@@ -259,12 +262,13 @@
   align-items: center;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-  justify-content: flex-end;
+  justify-content: center;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 0px 0px 100px 0px;
+margin-top: 15%;
+ margin-bottom: 25%;
 }
 
 .tours__card-title {
@@ -273,7 +277,7 @@
   font-size: 28px;
   line-height: 33px;
   color: #fff;
-  padding: 0px 30px 0px 35px;
+  padding: 0% 3% 0% 10%;
 }
 
 .tours__card-title1 {
@@ -282,7 +286,7 @@
   font-size: 28px;
   line-height: 33px;
   color: #fff;
-  padding: 0px 90px 0px 0px;
+  padding: 0% 3% 0% 10%;
 }
 
 .tours_text {
@@ -305,7 +309,14 @@
   line-height: 24px;
   margin-bottom: 58px;
 }
-
+.tour__thumb{
+width: 100%;
+height: 100%;
+}
+.tour__thumb1{
+  width: 100%;
+  height: 40%;
+  }
 /* Tours styles end */
 
 /* team styles start  Наша команда*/
@@ -315,14 +326,16 @@
 }
 
 .team__title {
-  margin-bottom: 10px;
+  
   font-weight: 800;
   font-size: 40px;
   line-height: 47px;
 
   color: #2f3b5b;
   text-shadow: 23px -8px rgba($color: #2f3b5b, $alpha: 0.13);
-  padding: 0px 0px 52px 0px;
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-bottom: 3%;
 }
 
 
@@ -332,12 +345,15 @@
   grid-column: span 1;
   border: 2px solid #bebebe;
   width: 70%;
+  margin-left: 5%;
+  
 }
 
 .team__card-pic {
-  max-width: 183px;
-  padding: 21px 0px 8px 0px;
-  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .benefits__card-thumb {
   display: block;
@@ -348,7 +364,8 @@
   font-size: 25px;
   line-height: 29px;
   color: #37425f;
-  padding: 0px 0px 8px 85px;
+  text-align: center;
+  
 }
 
 .team__card-desc {
@@ -356,12 +373,16 @@
   font-size: 15px;
   line-height: 18px;
   color: #37425f;
-  padding: 8px 34px 24px 24px;
-  margin: 0 auto;
+  text-align: center;
+margin-top: 5%;
+margin-bottom: 5%;
 }
 .team-more-inf {
-  padding: 0px 0px 24px 45px;
-  margin: 0 auto;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .team__card-more {
   display: inline-block;
@@ -371,6 +392,7 @@
   background: #f1b74c;
   text-decoration: none;
   color: #fff;
+  text-align: center;
   padding: 5px 15px;
 }
 
@@ -458,7 +480,7 @@
 /* near styles start */
 .near {
   margin-top: 20px;
-  margin-bottom: 20%;
+  margin-bottom: 16%;
   position: relative;
 }
 .near-back {
@@ -467,14 +489,16 @@
   right: 0;
 }
 .near-title {
-  margin-bottom: 10px;
+ 
   font-weight: 800;
   font-size: 40px;
   line-height: 47px;
 
   color: #2f3b5b;
   text-shadow: 20px -10px rgba($color: #2f3b5b, $alpha: 0.13);
-  padding: 0px 0px 44px 0px;
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-bottom: 3%;
 }
 .near-more-inf {
   text-align: center;
@@ -582,6 +606,7 @@
 .organize {
   position: relative;
   top: -10px;
+  margin-bottom: 1%;
 }
 .organize-wrapper {
   padding-top: 25px;
@@ -614,7 +639,7 @@
   top: -140px;
   right: 170px;
   z-index: 99;
-  width: 173px;
+  width: 70%;
 }
 .tukoidsa {
   display: none;
@@ -714,7 +739,7 @@
 /* gallery styles start */
 
 .gallery {
-  margin-bottom: 139px;
+  margin-bottom: 1%;
 }
 .gallery-wrapper {
   padding-top: 25px;
@@ -730,7 +755,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-
+margin-right: 3%;
   padding: 0px 0px 0px 80px;
 }
 
@@ -739,14 +764,14 @@
 }
 
 .gallery__title {
-  margin-bottom: 10px;
   font-weight: 800;
   font-size: 40px;
   line-height: 47px;
 
   color: #ffffff;
   text-shadow: 20px -10px #ffffff30;
-  padding: 0px 0px 0px 0px;
+  margin-bottom: 3%;
+
 }
 
 .gallery__cards {
@@ -785,14 +810,14 @@
 }
 
 .recall__title {
-  margin-bottom: 10px;
+  
   font-weight: 800;
   font-size: 40px;
   line-height: 47px;
 
   color: #ffffff;
   text-shadow: 20px -10px #ffffff3c;
-  padding: 0px 0px 0px 0px;
+  margin-bottom: 3%;
 }
 .recall__lil {
   font-weight: 500;

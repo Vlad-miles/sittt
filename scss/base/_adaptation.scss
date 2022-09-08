@@ -1,4 +1,18 @@
  @media screen and (max-width: 1200px) {
+  .top__title{
+    margin-left: 5%;
+    
+  }.top__cards{
+     column-gap: 3% !important;
+  }
+ 
+  .top__card{
+    margin-left: 0%;
+  }
+  .top__card-title1{
+  
+    font-size: 60px !important;
+  }
   .title-contener{
     min-width: 100%;
   }
@@ -9,14 +23,28 @@
     min-width: 100%;
   }
   .top__card-title{
-    font-weight: 500;
-    font-size: 90px;
+    font-weight: 700;
+    font-size: 60px;
   }
 
   .top__card-title2{
-    font-weight: 500 !important;
-    font-size: 90px !important;
+   
+    font-weight: 700 !important;
+    font-size: 60px !important;
   }
+  .organize-background {
+    background: url(../img/svg/background-organize.svg) 10% 10% no-repeat scroll !important;
+}
+.tours__card-title{
+  font-size: 25px!important;
+  line-height: 28px!important;
+}
+.organize__tour{
+  column-gap: 10%!important;
+}
+.organize__img{
+  margin-right: 3%;
+}
 }
 @media screen and (max-width: 960px) {
   
