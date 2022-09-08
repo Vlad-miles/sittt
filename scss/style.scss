@@ -55,8 +55,7 @@
  text-align: left;
 }
 .title-contener {
-  width: 100%;
-  height: 100%;
+  width: 90%;
   background: rgba(217, 217, 217, 0.8);
 }
 .top__card-title1 {
@@ -80,6 +79,11 @@
 .top__card-pic {
   position: relative;
   width: 100%;
+  margin-bottom: 13px;
+}
+.top__card-pic1  {
+  position: relative;
+  width: 90%;
   margin-bottom: 13px;
 }
 
@@ -124,7 +128,7 @@
   color: #fff;
   margin: 0 auto;
   text-align: center;
-  padding: 20px 10px 20px 10px ;
+ 
 }
 .top__card-title2 {
   font-family: "Roboto", sans-serif;
@@ -202,17 +206,20 @@
 .tours__list {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 2%;
+}
+.tours__card_pic{
+  width: 100%;
+  height: 100%;
 }
 .tours__item {
-  padding-left: 10px;
-  margin-right: 47px;
+  margin-right: 3%;
 }
 .tour__info {
-  width: 454px;
-  height: 410px;
-  background: url(../img/svg/Ellipse.svg) no-repeat;
+  width: 100%;
+  height: 100%;
   box-shadow: 0 0 10px 49px rgba(255, 255, 255, 0.329) inset;
-  padding-left: 47px;
+  margin-left: 0;
 }
 
 .tours__cards {
@@ -318,21 +325,13 @@
   padding: 0px 0px 52px 0px;
 }
 
-.team__cards {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 55px 1fr 55px 1fr;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 55px;
-  min-width: 288px;
-  min-height: 360px;
-}
+
 
 .team__card {
   -ms-grid-column-span: 1;
   grid-column: span 1;
   border: 2px solid #bebebe;
-  margin-bottom: 112px;
+  width: 70%;
 }
 
 .team__card-pic {
@@ -478,7 +477,7 @@
   padding: 0px 0px 44px 0px;
 }
 .near-more-inf {
-  padding: 20px 0px 0px 598px;
+  text-align: center;
   position: relative;
   z-index: 1;
 }
@@ -650,9 +649,25 @@
   margin-bottom: 0px;
   padding: 40px 0px 110px 0px;
 }
+.organize__img{
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 0px 1fr 0px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0%;
+  padding: 0px;
+}
+
+
+.organize-p {
+    -ms-grid-column-span: 1;
+    grid-column: span 1;
+    margin-bottom: 0px;
+
+}
 
 .organize__info {
-  padding-left: 47px;
+  margin-left: 10%;
 }
 
 .organize__title {
@@ -691,10 +706,7 @@
 .organize-pic1 {
   padding: 0px 0px 0px 18px;
 }
-.organize-p {
-  padding: 0;
-  margin: 0;
-}
+
 
 /* organize styles end ВСЁ УЖЕ
 ОРГАНИЗОВАНО!*/
