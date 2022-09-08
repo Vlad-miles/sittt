@@ -455,7 +455,7 @@ margin-bottom: 5%;
   color: #707981;
 }
 .questions-more-inf {
-  padding: 34px 0px 0px 0px;
+ margin-top: 5% !important;
   margin: 0 auto;
 }
 .questions-more {
@@ -1459,12 +1459,13 @@ margin-right: 3%;
 
 .footer {
   background: #ffffff;
-  padding: 10px 0;
+  margin-top: 1%;
+  margin-bottom: 5%;
 }
 
 .footer__list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .footer__item {
@@ -1472,7 +1473,14 @@ margin-right: 3%;
   font-size: 24px;
   line-height: 28px;
   color: #37425f;
-  margin-right: 0px;
+  margin-right: 3%;
+}
+.footer__item01 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #37425f;
+  margin-right: 0%;
 }
 .footer__item:last-child {
   margin-right: 0;
@@ -1489,7 +1497,9 @@ margin-right: 3%;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  flex-direction: column;
   margin-left: 22px;
+  
 }
 
 .footer__logo {
@@ -1530,6 +1540,7 @@ margin-right: 3%;
   font-size: 25px;
   line-height: 32px;
   color: #37425f;
+  margin-top: 5%;
 }
 .footer__menu-link {
   color: #37425f;
@@ -1539,7 +1550,7 @@ margin-right: 3%;
   line-height: 24px;
 }
 .footer-more-inf {
-  padding: 34px 0px 0px 0px;
+ margin-top: 10% !important;
   margin: 0 auto;
 }
 .footer-more {
