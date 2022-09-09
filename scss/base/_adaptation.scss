@@ -45,6 +45,63 @@
 .organize__img{
   margin-right: 3%;
 }
+
+.way-title{
+  font-size: 130px!important;
+    line-height: 80px!important;
+}
+.buryatia__info {
+  margin-left: 5%!important;
+}
+#navbar{
+  margin-left: 8%!important;
+}
+.organize__info{
+  margin-top: 3%;
+}
+.organize__img{
+  display: none !important;
+
+}
+.organize__tour{
+  padding: 40px 0px 20px 0px !important; 
+}
+.organize__img_hidden1 {
+display: flex !important;
+margin-left: 15%;
+}
+.organize__list {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.organize__desc1{
+padding: 0px 0px 40px 0px !important;
+}
+
+.organize__lil{
+margin-top: 3% !important;
+text-align: center;
+}
+.icon{
+top: 13px !important;
+right: -45px !important;
+}
+.organize-pic{
+text-align: center; 
+}
+.organize-background {
+background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !important;
+}
+.buryatia__title{
+  margin-left: 6%!important;
+}
+.buryatia__card-title1{
+  margin-left: 6%!important;
+}
+.buryatia_text{
+  margin-left: 6%!important;
+}
 /*  footer start 1200*/
 
 
@@ -126,6 +183,28 @@ margin-left: 15%;
 .organize-background {
   background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !important;
 }
+.buryatia__title{
+  margin-left: 6%!important;
+}
+.buryatia__card-title1{
+  margin-left: 6%!important;
+}
+.buryatia_text{
+  margin-left: 6%!important;
+}
+.way-title{
+  font-size: 100px!important;
+    line-height: 80px!important;
+}
+.namely_buryatia-text {
+  font-size: 35px !important;
+  line-height: 47px !important;
+}
+.namely_buryatia-text1 {
+  font-size: 19px !important;
+  line-height: 28px !important;
+  padding-left: 3%;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -204,10 +283,16 @@ margin-left: 15%;
 .organize-background {
   background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !important;
 }
+.organize__img_hidden1 {
+  display: grid !important;;
+  margin-left: 0%!important;
 }
 
 @media screen and (max-width: 677px) {
-  
+  .organize__img_hidden1 {
+    display: grid !important;
+    margin-right: 25% !important;
+  }
 }
 @media screen and (max-width: 480px) {
   

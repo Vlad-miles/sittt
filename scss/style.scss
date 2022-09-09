@@ -679,14 +679,14 @@ margin-bottom: 5%;
 .organize__img_hidden1 {
   display: none;
 
+  display: grid;
+  -ms-grid-columns: 1fr 0px 1fr 0px 1fr;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 0%;
   padding: 0px;
-  flex-wrap: wrap;
-  flex-direction: row;
 }
 .organize__img_hidden{
-  display: -ms-grid;
+
   display: grid;
   -ms-grid-columns: 1fr 0px 1fr 0px 1fr;
   grid-template-columns: repeat(3, 1fr);
@@ -968,11 +968,6 @@ margin-right: 3%;
   top: 0;
 }
 
-.section {
-  min-width: 100%;
-  position: relative;
-  width: 100%;
-}
 
 .way-section-content {
   position: relative;
@@ -1019,8 +1014,8 @@ margin-right: 3%;
   background: #37425f;
 }
 .gabion-more-inf {
-  padding: 34px 105px 24px 105px;
-  margin: 0 auto;
+  text-align: center;
+  padding: 0% 0% 5% 0%;
 }
 .gabion-more {
   display: inline-block;
@@ -1071,9 +1066,10 @@ margin-right: 3%;
   max-height: 824px;
   border-radius: 10px;
   margin: 0 auto;
+  margin-left: 15%;
 }
 .gabion-pic {
-  width: 389px;
+  width: 100%;
   height: 296px;
   background: #ffffff;
   border-radius: 10px;
@@ -1096,7 +1092,8 @@ margin-right: 3%;
 .gabion-inf1 {
   position: relative;
   top: -140px;
-  padding: 0px 0px 20px 598px;
+ left: 0;
+text-align: center;
 }
 .gabion-more1 {
   display: inline-block;
@@ -1208,23 +1205,19 @@ margin-right: 3%;
 }
 
 .buryatia__tour {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 108px 1fr;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 108px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-
-  margin-bottom: 120px;
+  display: flex;
+    margin-bottom: 120px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
 }
 #navbar {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  max-width: 716px;
-  min-height: 600px;
+  max-width: 100%;
+  min-height: 100%;
+  margin-left: 3%;
 }
 #navbar li {
   width: 100%;
@@ -1254,12 +1247,12 @@ margin-right: 3%;
 #navbar a:active {
   color: #6a9ba8;
 }
-
+buryatia__pic{
+  margin-left: 5%!important;
+  margin-right: 15%!important;
+}
 .buryatia__info {
-  padding: 0px 0px 10px 600px;
-  width: 526px;
-  height: 681px;
-  background: url(../img/svg/about-Buryatia.svg) no-repeat;
+  margin-left: 33%;
   box-shadow: 0 0 70px 70px rgba(255, 255, 255, 0.719) inset;
 }
 
@@ -1269,6 +1262,7 @@ margin-right: 3%;
   line-height: 29px;
   color: #37425f;
   margin-bottom: 12px;
+  margin-left: 3%;
 }
 .buryatia__card-title1 {
   font-weight: 400;
@@ -1276,6 +1270,7 @@ margin-right: 3%;
   line-height: 29px;
   color: #37425f;
   margin-bottom: 12px;
+  margin-left: 3%;
 }
 .buryatia_text {
   font-weight: 400;
@@ -1283,17 +1278,19 @@ margin-right: 3%;
   line-height: 29px;
   color: #37425f;
   margin-bottom: 12px;
+  margin-left: 3%;
 }
 
 /* buryatia styles end */
 .namely_buryatia {
   width: 100%;
   height: 100%;
+  
   background: url(../img/svg/background-desktop20.svg) no-repeat scroll 130% 50%;
 }
 .namely_buryatia-wrapper {
   padding-top: 25px;
-  max-width: 1440px;
+  max-width: 100%;
   margin-bottom: 100px;
   margin: 0 auto;
   background: #37425f;
@@ -1346,12 +1343,9 @@ margin-right: 3%;
   padding: 210px 70px 23px 68px;
 }
 .namely__buryatia-cards {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 55px 1fr 55px 1fr;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 50px;
-  min-width: 288px;
+  display: flex;
+  min-width: 100%;
+  flex-wrap: nowrap;
 }
 
 .namely__buryatia-card {
@@ -1366,7 +1360,7 @@ margin-right: 3%;
   color: #ffffff;
 }
 .namely_buryatia-text1 {
-  width: 350px;
+  width: 100%;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
