@@ -1088,6 +1088,16 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .organize-background {
     background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !important;
   }
+  .organize__img_hidden1 {
+    display: grid !important;
+    margin-left: 0% !important;
+  }
+}
+@media screen and (max-width: 677px) {
+  .organize__img_hidden1 {
+    display: grid !important;
+    margin-right: 25% !important;
+  }
 }
 .top {
   margin-bottom: 20px;
@@ -1726,11 +1736,10 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 
 .organize__img_hidden1 {
   display: none;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 0%;
   padding: 0px;
-  flex-wrap: wrap;
-  flex-direction: row;
 }
 
 .organize__img_hidden {
