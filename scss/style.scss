@@ -673,8 +673,6 @@ margin-bottom: 5%;
 }
 .organize__img_hidden1 {
   display: none;
-
-  display: grid;
   -ms-grid-columns: 1fr 0px 1fr 0px 1fr;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 0%;
