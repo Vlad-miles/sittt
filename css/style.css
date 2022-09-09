@@ -881,7 +881,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .organize__img_hidden1 {
     display: flex !important;
-    margin-left: 15%;
+    margin-left: 20% !important;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .organize__list {
     display: flex;
@@ -967,7 +969,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .organize__img_hidden1 {
     display: flex !important;
-    margin-left: 15%;
+    margin-left: 20% !important;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .organize__list {
     display: flex;
@@ -1064,7 +1068,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .organize__img_hidden1 {
     display: flex !important;
-    margin-left: 15%;
+    margin-left: 15% !important;
   }
   .organize__list {
     display: flex;
@@ -1089,14 +1093,18 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !important;
   }
   .organize__img_hidden1 {
-    display: grid !important;
+    display: flex !important;
     margin-left: 0% !important;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 677px) {
+@media screen and (max-width: 768px) and (max-width: 677px) {
   .organize__img_hidden1 {
-    display: grid !important;
-    margin-right: 25% !important;
+    display: flex !important;
+    margin-left: 0% !important;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 .top {
@@ -1660,7 +1668,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 
 .organize-wrapper {
   padding-top: 25px;
-  max-width: 1440px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -2062,7 +2070,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 
 .gabion-wrapper {
   padding-top: 25px;
-  max-width: 1440px;
+  width: 100%;
   margin-bottom: 101px;
   margin: 0 auto;
   background: #37425f;
@@ -2210,7 +2218,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 
 .travel-wrapper {
   padding-top: 25px;
-  max-width: 1440px;
+  width: 100%;
   margin-bottom: 101px;
   margin: 0 auto;
   background: #ffffff;
