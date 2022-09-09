@@ -904,6 +904,41 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     font-size: 25px !important;
     line-height: 28px !important;
   }
+  .organize__info {
+    margin-top: 3%;
+  }
+  .organize__img {
+    display: none !important;
+  }
+  .organize__tour {
+    padding: 40px 0px 20px 0px !important;
+  }
+  .organize__img_hidden1 {
+    display: flex !important;
+    margin-left: 15%;
+  }
+  .organize__list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .organize__desc1 {
+    padding: 0px 0px 40px 0px !important;
+  }
+  .organize__lil {
+    margin-top: 3% !important;
+    text-align: center;
+  }
+  .icon {
+    top: 13px !important;
+    right: -45px !important;
+  }
+  .organize-pic {
+    text-align: center;
+  }
+  .organize-background {
+    background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !important;
+  }
 }
 .top {
   margin-bottom: 20px;
@@ -1185,8 +1220,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   -ms-grid-column-span: 1;
   grid-column: span 1;
   border: 2px solid #bebebe;
-  width: 70%;
+  width: 100%;
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 .team__card-pic {
@@ -1532,6 +1568,22 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .organize__img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0%;
+  padding: 0px;
+}
+
+.organize__img_hidden1 {
+  display: none;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0%;
+  padding: 0px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.organize__img_hidden {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 0%;
