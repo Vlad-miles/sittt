@@ -295,6 +295,7 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
 
   flex-direction: column !important;
 }
+
 }
 @media screen and (max-width: 677px) {
   .organize__img_hidden1 {
@@ -322,6 +323,22 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
 .tours__list {
 
   flex-direction: column !important;
+}
+.tours__card-title {
+  font-size: 55px !important;
+  line-height: 70px !important;
+}
+.tours__card-thumb{
+  width: 15%;
+  
+}
+.tours__card-title02{
+  font-size: 55px !important;
+  line-height: 70px !important;
+}
+.tours__card-title1{
+  font-size: 55px !important;
+  line-height: 70px !important;
 }
 }
 
