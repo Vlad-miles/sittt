@@ -291,6 +291,12 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
     flex-direction: row;
     flex-wrap: wrap;
 }
+.tours__list {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  margin-left: 2%;
+  flex-direction: column !important;
+}
 }
 @media screen and (max-width: 677px) {
   .organize__img_hidden1 {
@@ -314,6 +320,12 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
   column-gap: 57px;
   row-gap: 0px;
   flex-direction: column;
+}
+.tours__list {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  margin-left: 2%;
+  flex-direction: column !important;
 }
 }
 
