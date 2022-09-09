@@ -209,6 +209,7 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
   line-height: 28px !important;
   padding-left: 3%;
 }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -290,7 +291,7 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+}
 @media screen and (max-width: 677px) {
   .organize__img_hidden1 {
     display: flex !important;
@@ -298,7 +299,24 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .title-contener {
+    width: 100% !important;
 }
+.top__card-pic {
+  width: 100% !important;
+}
+.card-more-inf {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.top__cards {
+  display: flex;
+  column-gap: 57px;
+  row-gap: 0px;
+  flex-direction: column;
+}
+}
+
 @media screen and (max-width: 480px) {
   .organize__title{
     font-size: 40px !important;
@@ -325,6 +343,16 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
     top: 19px !important;
     right: -45px !important;
 }
+.card-more-inf {
+  margin-top: 5%;
+  margin-bottom: 5% !important;
+}
+.top__cards {
+  display: flex;
+  column-gap: 57px;
+  row-gap: 0px;
+  flex-direction: column;
+}
 }
 @media screen and (max-width: 340px) {
   .organize__title{
@@ -344,6 +372,36 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
   top: 14px !important;
   left: 74px !important;
 }
+.card-more-inf {
+  margin-top: 5%;
+  margin-bottom: 5% !important;
+}
+.top__cards {
+  display: flex;
+  column-gap: 57px;
+  row-gap: 0px;
+  flex-direction: column;
+}
+.top__title{
+  font-size: 36px !important;
+  line-height: 40px !important;
+}
+.top__card-title1{
+  font-size: 36px !important;
+  line-height: 40px !important;
+}
+.top__card-title{
+  font-size: 47px !important;
+  line-height: 55px !important;
+}
+.top__card-title2{
+  font-size: 47px !important;
+  line-height: 55px !important;
+}
+.card-more-inf {
+  margin-bottom: 5% !important;
+  
+}
 
 }
-}
+
