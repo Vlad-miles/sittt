@@ -1508,7 +1508,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 .organize-background {
   position: relative;
   box-shadow: 0 0 50px 50px rgba(255, 255, 255, 0.648) inset;
-  background: url(../img/svg/background-organize.svg) no-repeat scroll 85% 550%;
+  background: url(../img/svg/background-organize.svg) no-repeat scroll 85% 50%;
 }
 
 .icon22 {
@@ -1559,12 +1559,13 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .organize__tour {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 108px;
   align-items: center;
   margin-bottom: 0px;
   padding: 40px 0px 110px 0px;
+  flex-direction: row;
 }
 
 .organize__img {
