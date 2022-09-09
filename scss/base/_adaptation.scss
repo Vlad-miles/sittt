@@ -105,6 +105,9 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
   margin-left: 6%!important;
 }
 /*  footer start 1200*/
+.footer__list{
+  flex-wrap: wrap !important;
+}
 
 
 /*  footer  end 1200*/
@@ -209,7 +212,14 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
   line-height: 28px !important;
   padding-left: 3%;
 }
+.buryatia__info {
+  margin-left: 0% !important;
+}
+/*  footer  start 960*/
 
+
+
+/*  footer  end 960*/
 }
 
 @media screen and (max-width: 768px) {

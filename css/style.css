@@ -917,6 +917,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     margin-left: 6% !important;
   }
   /*  footer start 1200*/
+  .footer__list {
+    flex-wrap: wrap !important;
+  }
   /*  footer  end 1200*/
 }
 @media screen and (max-width: 960px) {
@@ -1017,6 +1020,11 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     line-height: 28px !important;
     padding-left: 3%;
   }
+  .buryatia__info {
+    margin-left: 0% !important;
+  }
+  /*  footer  start 960*/
+  /*  footer  end 960*/
 }
 @media screen and (max-width: 768px) {
   .wrapper {
@@ -2870,8 +2878,9 @@ buryatia__pic {
 }
 
 .footer-more-inf {
+  position: relative;
   margin-top: 10% !important;
-  margin: 0 auto;
+  left: -110px;
 }
 
 .footer-more {
