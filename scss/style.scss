@@ -923,7 +923,7 @@ margin-right: 3%;
 
 /* way styles start  Два направления  */
 .way {
-  min-width: 1440px;
+  min-width: 100%;
   margin-bottom: 10px;
 }
 .way-title {
@@ -969,8 +969,7 @@ margin-right: 3%;
 }
 
 .section {
-  width: 1440px;
-  height: 900px;
+  min-width: 100%;
   position: relative;
   width: 100%;
 }
