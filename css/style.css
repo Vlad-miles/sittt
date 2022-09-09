@@ -867,7 +867,42 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 @media screen and (max-width: 960px) {
   .wrapper {
-    width: 90%;
+    width: 100% !important;
+    margin: 0%;
+  }
+  .intro_h1 {
+    font-size: 70px !important;
+    line-height: 94px !important;
+  }
+  .wrapper-full {
+    width: 100% !important;
+    margin: 0%;
+  }
+  .top__card-title1 {
+    font-size: 50px !important;
+  }
+  .top__card {
+    justify-content: center;
+  }
+  .top__card-title {
+    font-size: 60px !important;
+  }
+  .top__card-title2 {
+    font-size: 60px !important;
+  }
+  .top__card-more {
+    padding: 5% 19% !important;
+  }
+  .tours__card-stats {
+    margin-bottom: 10% !important;
+  }
+  .tours__card-title02 {
+    font-size: 25px !important;
+    line-height: 28px !important;
+  }
+  .tours__card-title1 {
+    font-size: 25px !important;
+    line-height: 28px !important;
   }
 }
 .top {
@@ -887,7 +922,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .title-contener {
-  width: 90%;
+  width: 100%;
   background: rgba(217, 217, 217, 0.8);
 }
 
@@ -901,11 +936,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .top__cards {
-  display: grid;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   column-gap: 57px;
-  row-gap: 57px;
+  row-gap: 0px;
 }
 
 .top__card-pic {
@@ -916,7 +949,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 
 .top__card-pic1 {
   position: relative;
-  width: 90%;
+  width: 100%;
   margin-bottom: 13px;
 }
 
@@ -927,6 +960,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   flex-direction: column;
   -ms-grid-column-span: 2;
   grid-column: span 2;
+  align-items: center;
 }
 
 .top__card-stats {
@@ -962,7 +996,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .card-more-inf {
-  margin: 0 auto;
   margin-top: 5%;
 }
 
@@ -974,7 +1007,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   background: #f1b74c;
   text-decoration: none;
   color: #fff;
-  padding: 15px 100px;
+  padding: 5% 45%;
 }
 
 .top__card-more:hover,
@@ -1068,14 +1101,21 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
-  margin-top: 15%;
+  bottom: 0;
   margin-bottom: 25%;
 }
 
 .tours__card-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 33px;
+  color: #fff;
+  padding: 0% 3% 0% 10%;
+}
+
+.tours__card-title02 {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-size: 28px;

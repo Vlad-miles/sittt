@@ -52,11 +52,42 @@
 }
 @media screen and (max-width: 960px) {
   .wrapper{
-    width: 75% s!important;
+    width: 100% !important;
+    margin: 0%;
   }
   .intro_h1{
     font-size: 70px !important;
     line-height: 94px !important;
+  }
+  .wrapper-full{
+    width: 100% !important;
+    margin: 0%;
+  }
+  .top__card-title1{
+    font-size: 50px!important;
+  }
+  .top__card{
+    justify-content: center; 
+  }
+  .top__card-title{
+    font-size: 60px !important;
+  }
+  .top__card-title2{
+    font-size: 60px !important;
+  }
+  .top__card-more{
+    padding: 5% 19% !important;
+  }
+  .tours__card-stats{
+    margin-bottom: 10% !important;
+  }
+  .tours__card-title02{
+    font-size: 25px !important;
+    line-height: 28px !important;
+  }
+  .tours__card-title1{
+    font-size: 25px !important;
+    line-height: 28px !important;
   }
 }
 
