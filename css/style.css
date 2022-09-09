@@ -1197,6 +1197,10 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .tours__card-stats {
     margin-bottom: 12% !important;
   }
+  .tours_topic {
+    font-size: 50px !important;
+    line-height: 50px !important;
+  }
 }
 @media screen and (max-width: 340px) {
   .organize__title {
@@ -1244,6 +1248,28 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .card-more-inf {
     margin-bottom: 5% !important;
+  }
+  .tours__card-title {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+  .tours__card-thumb {
+    width: 15%;
+  }
+  .tours__card-title02 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+  .tours__card-title1 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+  .tours__card-stats {
+    margin-bottom: 12% !important;
+  }
+  .tours_topic {
+    font-size: 28px !important;
+    line-height: 30px !important;
   }
 }
 .top {
