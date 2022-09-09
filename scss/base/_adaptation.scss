@@ -292,9 +292,7 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
     flex-wrap: wrap;
 }
 .tours__list {
-  display: flex !important;
-  flex-wrap: nowrap !important;
-  margin-left: 2%;
+
   flex-direction: column !important;
 }
 }
@@ -322,9 +320,7 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
   flex-direction: column;
 }
 .tours__list {
-  display: flex !important;
-  flex-wrap: nowrap !important;
-  margin-left: 2%;
+
   flex-direction: column !important;
 }
 }
