@@ -51,7 +51,13 @@
 /*  footer  end 1200*/
 }
 @media screen and (max-width: 960px) {
-  
+  .wrapper{
+    width: 75% s!important;
+  }
+  .intro_h1{
+    font-size: 70px !important;
+    line-height: 94px !important;
+  }
 }
 
 @media screen and (max-width: 768px) {

@@ -865,6 +865,11 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   /*  footer start 1200*/
   /*  footer  end 1200*/
 }
+@media screen and (max-width: 960px) {
+  .wrapper {
+    width: 90%;
+  }
+}
 .top {
   margin-bottom: 20px;
 }
