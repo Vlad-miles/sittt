@@ -1116,6 +1116,18 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     min-width: 50%;
     height: 100%;
   }
+  .way-title {
+    font-size: 95px !important;
+    line-height: 80px !important;
+  }
+  .way-text {
+    font-size: 110px !important;
+    line-height: 70px !important;
+  }
+  .way-text1 {
+    font-size: 110px !important;
+    line-height: 70px !important;
+  }
 }
 @media screen and (max-width: 677px) {
   .organize__img_hidden1 {
@@ -1164,6 +1176,18 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .team__card-more {
     padding: 5% 5% !important;
+  }
+  .way-title {
+    font-size: 65px !important;
+    line-height: 1px !important;
+  }
+  .way-text {
+    font-size: 80px !important;
+    line-height: 60px !important;
+  }
+  .way-text1 {
+    font-size: 80px !important;
+    line-height: 60px !important;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1222,6 +1246,19 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .tours_topic {
     font-size: 50px !important;
     line-height: 50px !important;
+  }
+  .way-title {
+    font-size: 46px !important;
+    line-height: 1px !important;
+    padding: 70px 0px 70px 0px !important;
+  }
+  .way-text {
+    font-size: 55px !important;
+    line-height: 40px !important;
+  }
+  .way-text1 {
+    font-size: 55px !important;
+    line-height: 40px !important;
   }
 }
 @media screen and (max-width: 340px) {
@@ -1291,6 +1328,19 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .tours_topic {
     font-size: 28px !important;
+    line-height: 30px !important;
+  }
+  .way-title {
+    font-size: 34px !important;
+    line-height: 1px !important;
+    padding: 50px 0px 50px 0px !important;
+  }
+  .way-text {
+    font-size: 40px !important;
+    line-height: 30px !important;
+  }
+  .way-text1 {
+    font-size: 40px !important;
     line-height: 30px !important;
   }
 }
