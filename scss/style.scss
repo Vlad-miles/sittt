@@ -1465,8 +1465,28 @@ buryatia__pic{
   display: flex;
   flex-wrap: nowrap;
 }
-
+.footer__list_hidden {
+  display: none;
+  flex-wrap: nowrap;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+.footer__item_logo {
+  float: left;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #37425f;
+  margin-right: 3%;
+}
 .footer__item {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #37425f;
+  margin-right: 3%;
+}
+.footer__item_hidden {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -1478,7 +1498,14 @@ buryatia__pic{
   font-size: 24px;
   line-height: 28px;
   color: #37425f;
-  margin-right: 0%;
+  margin-right: 3%;
+}
+.footer__item02 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #37425f;
+  margin-right: 3%;
 }
 .footer__item:last-child {
   margin-right: 0;
@@ -1502,6 +1529,7 @@ buryatia__pic{
 
 .footer__logo {
   width: 100%;
+  
 }
 
 .footer__nav {
@@ -1548,8 +1576,10 @@ buryatia__pic{
   line-height: 24px;
 }
 .footer-more-inf {
- margin-top: 10% !important;
-  margin: 0 auto;
+margin-left:13%;
+margin-bottom: 3%;
+
+
 }
 .footer-more {
   display: inline-block;

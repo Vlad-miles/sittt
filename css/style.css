@@ -917,8 +917,11 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     margin-left: 6% !important;
   }
   /*  footer start 1200*/
-  .footer__list {
-    flex-wrap: wrap !important;
+  .footer__item_hidden {
+    display: none;
+  }
+  .footer__list_hidden {
+    display: flex !important;
   }
   /*  footer  end 1200*/
 }
@@ -1024,6 +1027,12 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     margin-left: 0% !important;
   }
   /*  footer  start 960*/
+  .footer__item_hidden {
+    display: none;
+  }
+  .footer__list_hidden {
+    display: flex !important;
+  }
   /*  footer  end 960*/
 }
 @media screen and (max-width: 768px) {
@@ -1136,6 +1145,14 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     font-size: 110px !important;
     line-height: 70px !important;
   }
+  .footer__list {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .footer__item01 {
+    margin-left: 32%;
+    margin-bottom: 5%;
+  }
 }
 @media screen and (max-width: 677px) {
   .organize__img_hidden1 {
@@ -1196,6 +1213,10 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .way-text1 {
     font-size: 80px !important;
     line-height: 60px !important;
+  }
+  .footer__item01 {
+    margin-left: 43% !important;
+    margin-bottom: 5%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -2797,7 +2818,31 @@ buryatia__pic {
   flex-wrap: nowrap;
 }
 
+.footer__list_hidden {
+  display: none;
+  flex-wrap: nowrap;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+
+.footer__item_logo {
+  float: left;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #37425f;
+  margin-right: 3%;
+}
+
 .footer__item {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #37425f;
+  margin-right: 3%;
+}
+
+.footer__item_hidden {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -2810,7 +2855,15 @@ buryatia__pic {
   font-size: 24px;
   line-height: 28px;
   color: #37425f;
-  margin-right: 0%;
+  margin-right: 3%;
+}
+
+.footer__item02 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #37425f;
+  margin-right: 3%;
 }
 
 .footer__item:last-child {
@@ -2878,9 +2931,8 @@ buryatia__pic {
 }
 
 .footer-more-inf {
-  position: relative;
-  margin-top: 10% !important;
-  left: -110px;
+  margin-left: 13%;
+  margin-bottom: 3%;
 }
 
 .footer-more {
