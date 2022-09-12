@@ -754,7 +754,11 @@ margin-bottom: 5%;
 ОРГАНИЗОВАНО!*/
 
 /* gallery styles start */
-
+.gallery_png{
+display: flex;
+justify-content: flex-end;
+flex-direction: row-reverse;
+}
 .gallery {
   margin-bottom: 1%;
 }
