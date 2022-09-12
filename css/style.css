@@ -1032,6 +1032,19 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     font-size: 100px !important;
     line-height: 80px !important;
   }
+  .namely_buryatia-block {
+    height: 100% !important;
+  }
+  .namely_buryatia-thumb {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .namely_buryatia_tour {
+    width: 100%;
+  }
+  .namely_buryatia {
+    background: url(../img/svg/background-desktop20.svg) no-repeat scroll -23% 95% !important;
+  }
   .namely_buryatia-text {
     font-size: 35px !important;
     line-height: 47px !important;
@@ -1282,6 +1295,43 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     font-size: 80px !important;
     line-height: 60px !important;
   }
+  .namely__buryatia-cards {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .namely_buryatia-thumb1 {
+    padding: 0 !important;
+  }
+  .namely_buryatia__title {
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
+  .namely_buryatia__title1 {
+    font-size: 17px !important;
+    line-height: 20px !important;
+  }
+  .namely_buryatia-block {
+    height: 100% !important;
+  }
+  .namely_buryatia-thumb {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .namely_buryatia_tour {
+    width: 100%;
+  }
+  .namely_buryatia {
+    background: url(../img/svg/background-desktop20.svg) no-repeat scroll 30% 80% !important;
+  }
+  .namely_buryatia-text {
+    font-size: 35px !important;
+    line-height: 47px !important;
+  }
+  .namely_buryatia-text1 {
+    font-size: 19px !important;
+    line-height: 28px !important;
+    padding-left: 3%;
+  }
   .gallery__tour {
     display: flex !important;
     flex-direction: column;
@@ -1409,6 +1459,10 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     font-size: 55px !important;
     line-height: 40px !important;
   }
+  .namely_buryatia_tour {
+    display: flex !important;
+    flex-direction: column !important;
+  }
   /*  footer  start 480*/
   .footer__list {
     display: flex !important;
@@ -1528,6 +1582,10 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .way-text1 {
     font-size: 40px !important;
     line-height: 30px !important;
+  }
+  .namely_buryatia_tour {
+    display: flex !important;
+    flex-direction: column !important;
   }
   /*  footer  start 340*/
   .footer__list {
