@@ -493,7 +493,8 @@ body {
     background: #37425f;
     padding: 2rem;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
   }
   .header__wrapper .header__nav.header__nav_active ul.header__list {
     display: flex;
@@ -2658,7 +2659,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 
 .way-section-content {
   position: relative;
-  z-index: 5;
+  z-index: 2;
   color: #000;
   height: 100%;
   padding: 39px 80px 0px 80px;
