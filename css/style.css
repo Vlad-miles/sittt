@@ -1094,6 +1094,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .gall {
     width: 100%;
   }
+  .animation {
+    font-size: 115px !important;
+  }
   /*  footer  start 960*/
   .footer__item_hidden {
     display: none;
@@ -1240,7 +1243,22 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     margin-top: 3%;
     margin-bottom: 3%;
   }
-  /*  footer  start 768*/
+  .animation {
+    font-size: 100px !important;
+  }
+  .bashkara__tour1 {
+    display: flex !important;
+  }
+  .bashkara__tour_new1 {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  .bashkara__list1 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
   .footer__list {
     display: flex !important;
     flex-wrap: wrap !important;
@@ -1391,6 +1409,15 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     margin-top: 3%;
     margin-bottom: 3%;
   }
+  .bashkara__tour_new {
+    display: inline !important;
+  }
+  .bashkara__h2 {
+    margin-top: 3%;
+  }
+  .animation {
+    font-size: 60px !important;
+  }
   /*  footer  start 677*/
   .footer__list {
     display: flex !important;
@@ -1497,6 +1524,15 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     display: flex !important;
     flex-direction: column !important;
   }
+  .bashkara__tour_new {
+    display: inline !important;
+  }
+  .bashkara__h2 {
+    margin-top: 3%;
+  }
+  .animation {
+    font-size: 50px !important;
+  }
   /*  footer  start 480*/
   .footer__list {
     display: flex !important;
@@ -1539,6 +1575,10 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .organize__title {
     font-size: 27px !important;
     line-height: 35px !important;
+  }
+  .animation {
+    font-size: 45px !important;
+    line-height: 100px !important;
   }
   .organize__desc {
     font-size: 21px !important;
@@ -1620,6 +1660,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .namely_buryatia_tour {
     display: flex !important;
     flex-direction: column !important;
+  }
+  .bashkara_topic {
+    font-size: 35px !important;
   }
   /*  footer  start 340*/
   .footer__list {
@@ -3324,7 +3367,6 @@ buryatia__pic {
   column-gap: 108px;
   align-items: center;
   margin-bottom: 77px;
-  border: 1px solid #bebebe;
   padding: 20px 0px 0px 0px;
 }
 
@@ -3334,6 +3376,23 @@ buryatia__pic {
   column-gap: 10px;
   align-items: center;
   margin-bottom: 37px;
+}
+
+.bashkara__tour_new {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  align-items: center;
+  margin-bottom: 37px;
+}
+
+.bashkara__tour_new1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  align-items: center;
+  margin-bottom: 37px;
+  border: 1px solid #bebebe;
 }
 
 .bashkara__list1 {
@@ -3478,6 +3537,7 @@ buryatia__pic {
 
 .bashkara__p1 {
   display: flex;
+  flex-direction: column;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 25px;

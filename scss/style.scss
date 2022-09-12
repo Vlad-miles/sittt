@@ -1684,7 +1684,7 @@ margin-bottom: 3%;
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 77px;
-  border: 1px solid #bebebe;
+ 
   padding: 20px 0px 0px 0px;
 }
 .bashkara__tour {
@@ -1697,6 +1697,29 @@ margin-bottom: 3%;
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 37px;
+}
+.bashkara__tour_new{
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 37px;
+}
+.bashkara__tour_new1{
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 37px;
+  border: 1px solid #bebebe;
 }
 .bashkara__list1 {
   display: flex;
@@ -1853,7 +1876,6 @@ margin-bottom: 3%;
   padding: 20px 0px 16px 50px;
 }
 .booking__tour {
-  display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 10px 1fr;
   grid-template-columns: repeat(2, 1fr);
