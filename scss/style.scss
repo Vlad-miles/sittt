@@ -754,18 +754,16 @@ margin-bottom: 5%;
 ОРГАНИЗОВАНО!*/
 
 /* gallery styles start */
-.gallery_png{
-display: flex;
-justify-content: flex-end;
-flex-direction: row-reverse;
-}
+
 .gallery {
   margin-bottom: 1%;
+  background: #37425f;
 }
 .gallery-wrapper {
   padding-top: 25px;
   margin: 0 auto;
-  background: #37425f;
+  background: url(../img/gallery.png) no-repeat scroll 100% 0%;
+  
 }
 .gallery__tour {
   display: -ms-grid;
@@ -803,14 +801,18 @@ margin-right: 3%;
 
 
 .gallery__info {
+  
+  
+  
   padding-left: 47px;
 }
 
 .gallery__title {
+  display: inline-block;
+  vertical-align: middle;
   font-weight: 800;
   font-size: 40px;
   line-height: 47px;
-
   color: #ffffff;
   text-shadow: 20px -10px #ffffff30;
   margin-bottom: 3%;

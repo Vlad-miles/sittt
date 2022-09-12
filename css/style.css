@@ -2424,12 +2424,13 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 /* gallery styles start */
 .gallery {
   margin-bottom: 1%;
+  background: #37425f;
 }
 
 .gallery-wrapper {
   padding-top: 25px;
   margin: 0 auto;
-  background: #37425f;
+  background: url(../img/gallery.png) no-repeat scroll 100% 0%;
 }
 
 .gallery__tour {
@@ -2463,6 +2464,8 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .gallery__title {
+  display: inline-block;
+  vertical-align: middle;
   font-weight: 800;
   font-size: 40px;
   line-height: 47px;
@@ -3941,6 +3944,28 @@ buryatia__pic {
 
 /* booking end           Забронировать экскурсию           */
 /* Облака                           */
+.bg-ex-footer {
+  overflow: visible;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: url("../img/clouds/cloud-01.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  animation: animated-footer 35s linear infinite;
+  width: 100%;
+  height: 100%;
+  z-index: auto;
+}
+
+@keyframes animated-footer {
+  from {
+    background-position: 800px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
 .bg-ex-sky {
   overflow: visible;
   position: absolute;
@@ -3955,7 +3980,7 @@ buryatia__pic {
   z-index: auto;
 }
 
-@keyframes animated-top {
+@keyframes animated-sky {
   from {
     background-position: 800px 0;
   }
@@ -3970,12 +3995,12 @@ buryatia__pic {
   right: -311px;
   background: url("../img/clouds/directions.png") no-repeat;
   background-position: 0 0;
-  animation: animated-sky 35s linear infinite;
+  animation: animated-sky1 35s linear infinite;
   width: 100%;
   height: 350px;
 }
 
-@keyframes animated-sky {
+@keyframes animated-sky1 {
   from {
     background-position: 800px 0;
   }
