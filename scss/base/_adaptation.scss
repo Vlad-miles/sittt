@@ -234,6 +234,9 @@ display: flex !important;
 .buryatia__info {
   margin-left: 0% !important;
 }
+.gall{
+  width: 100%;
+}
 /*  footer  start 960*/
 .footer__item_hidden{
   display: none;
@@ -471,6 +474,18 @@ display: flex !important;
   font-size: 80px!important;
   line-height: 60px!important; 
 }
+.gallery__tour{
+  display: flex !important;
+  flex-direction: column;
+}
+.gallery__cards{
+  display: flex !important;
+  flex-direction: column;
+
+}
+.tour__thumb1{
+  display: none;
+}
 /*  footer  start 677*/
 .footer__list {
   display: flex !important; 
@@ -505,6 +520,7 @@ display: flex !important;
   }
 /*  footer  end 677*/
 }
+
 
 @media screen and (max-width: 480px) {
   .organize__title{

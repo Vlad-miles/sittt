@@ -1044,6 +1044,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .buryatia__info {
     margin-left: 0% !important;
   }
+  .gall {
+    width: 100%;
+  }
   /*  footer  start 960*/
   .footer__item_hidden {
     display: none;
@@ -1266,6 +1269,15 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .way-text1 {
     font-size: 80px !important;
     line-height: 60px !important;
+  }
+  .gallery__tour {
+    display: flex;
+  }
+  .gallery__cards {
+    display: flex;
+  }
+  .tour__thumb1 {
+    display: none;
   }
   /*  footer  start 677*/
   .footer__list {
