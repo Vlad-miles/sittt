@@ -1181,6 +1181,18 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     font-size: 110px !important;
     line-height: 70px !important;
   }
+  .gallery__tour {
+    display: none !important;
+  }
+  .gallery__tour_hidden {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .benefits__card {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
   /*  footer  start 768*/
   .footer__list {
     display: flex !important;
@@ -1207,16 +1219,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .footer-it {
     font-size: 20px !important;
-  }
-  .gallery__tour {
-    display: none !important;
-  }
-  .gallery__tour_hidden {
-    display: flex !important;
-    flex-direction: column;
-  }
-  .benefits__card {
-    width: 100%;
   }
   /*  footer  end 768*/
 }
@@ -1290,6 +1292,20 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .tour__thumb1 {
     display: none;
+  }
+  .gallery__tour {
+    display: none !important;
+  }
+  .gallery__tour_hidden {
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .benefits__card {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
   }
   /*  footer  start 677*/
   .footer__list {
@@ -1818,6 +1834,18 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   height: 40%;
 }
 
+.tour__thumb0 {
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+}
+
+.tour__thumb01 {
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
+
 /* Tours styles end */
 /* team styles start  Наша команда*/
 .team {
@@ -2292,7 +2320,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   column-gap: 42px;
   align-items: center;
   margin-right: 3%;
-  padding: 0px 0px 0px 80px;
 }
 
 .gallery__info {
