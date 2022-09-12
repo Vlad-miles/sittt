@@ -1464,6 +1464,7 @@ buryatia__pic{
 .footer__list {
   display: flex;
   flex-wrap: nowrap;
+  width: 100%;
 }
 .footer__list_hidden {
   display: none;
@@ -1517,19 +1518,16 @@ buryatia__pic{
 }
 
 .footer__item1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   flex-direction: column;
   margin-left: 22px;
-  
+  width: 100%;
 }
 
 .footer__logo {
   width: 100%;
-  
 }
 
 .footer__nav {
