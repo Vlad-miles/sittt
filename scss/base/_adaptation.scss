@@ -409,6 +409,16 @@ display: flex !important;
   .footer-it{
     font-size: 20px !important;
   }
+  .gallery__tour{
+    display: none !important;
+  }
+  .gallery__tour_hidden{
+    display: flex !important;
+    flex-direction: column;
+  }
+  .benefits__card{
+width: 100%;
+  }
 /*  footer  end 768*/
 }
 @media screen and (max-width: 677px) {

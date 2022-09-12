@@ -1208,6 +1208,16 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .footer-it {
     font-size: 20px !important;
   }
+  .gallery__tour {
+    display: none !important;
+  }
+  .gallery__tour_hidden {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .benefits__card {
+    width: 100%;
+  }
   /*  footer  end 768*/
 }
 @media screen and (max-width: 677px) {
@@ -1271,10 +1281,12 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     line-height: 60px !important;
   }
   .gallery__tour {
-    display: flex;
+    display: flex !important;
+    flex-direction: column;
   }
   .gallery__cards {
-    display: flex;
+    display: flex !important;
+    flex-direction: column;
   }
   .tour__thumb1 {
     display: none;
@@ -2257,6 +2269,24 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .gallery__tour {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 42px;
+  align-items: center;
+  margin-right: 3%;
+  padding: 0px 0px 0px 80px;
+}
+
+.gallery__tour_hidden {
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 42px;
+  align-items: center;
+  margin-right: 3%;
+  padding: 0px 0px 0px 80px;
+}
+
+.gallery__tour_hidden1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 42px;
