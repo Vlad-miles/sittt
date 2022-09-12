@@ -919,6 +919,40 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .gall {
     width: 100%;
   }
+  .animation {
+    font-size: 140px !important;
+  }
+  .bashkara__info {
+    display: none;
+  }
+  .bashkara__pic {
+    width: 100%;
+  }
+  .bashkara__tour {
+    grid-template-columns: initial !important;
+  }
+  .icon22 {
+    top: -10px !important;
+    left: 0px !important;
+  }
+  .bashkara_icon22 {
+    top: -10px !important;
+    left: 0px !important;
+  }
+  .bashkara_pic2 {
+    top: 30px !important;
+  }
+  .bashkara__tour1 {
+    padding: 40px 0px 0px 0px !important;
+    margin-bottom: 3% !important;
+  }
+  .bashkara__list {
+    flex-wrap: initial !important;
+    flex-direction: column;
+  }
+  .bashkara__list1 {
+    flex-wrap: initial !important;
+  }
   /*  footer start 1200*/
   .footer__item_hidden {
     display: none;
@@ -3302,6 +3336,11 @@ buryatia__pic {
   margin-bottom: 37px;
 }
 
+.bashkara__list1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .bashkara__list {
   display: flex;
   flex-wrap: wrap;
@@ -3438,6 +3477,7 @@ buryatia__pic {
 }
 
 .bashkara__p1 {
+  display: flex;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 25px;

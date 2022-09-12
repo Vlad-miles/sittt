@@ -107,6 +107,40 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
 .gall{
   width: 100%;
 }
+.animation{
+  font-size: 140px !important;
+}
+.bashkara__info{
+  display: none;
+}
+.bashkara__pic{
+  width: 100%;
+}
+.bashkara__tour{
+  grid-template-columns: initial !important;
+}
+.icon22{
+  top: -10px !important;
+  left: 0px !important;
+}
+.bashkara_icon22{
+  top: -10px !important;
+ left: 0px !important;
+}
+.bashkara_pic2{
+  top: 30px !important;
+}
+.bashkara__tour1{
+  padding: 40px 0px 0px 0px !important;
+  margin-bottom: 3% !important;
+}
+.bashkara__list{
+  flex-wrap: initial !important;
+  flex-direction: column;
+}
+.bashkara__list1{
+  flex-wrap: initial !important;
+}
 /*  footer start 1200*/
 .footer__item_hidden{
 display: none;
