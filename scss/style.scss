@@ -2225,6 +2225,27 @@ margin-bottom: 3%;
 /* booking end           Забронировать экскурсию           */
 
 /* Облака                           */
+.bg-ex-footer{
+  overflow: visible;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: url("../img/clouds/cloud-01.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  animation: animated-footer 35s linear infinite;
+  width: 100%;
+  height: 100%;
+  z-index: auto;
+}
+@keyframes animated-footer {
+  from {
+    background-position: 800px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
 .bg-ex-sky {
   overflow: visible;
   position: absolute;
@@ -2239,7 +2260,7 @@ margin-bottom: 3%;
   z-index: auto;
 }
 
-@keyframes animated-top {
+@keyframes animated-sky {
   from {
     background-position: 800px 0;
   }
@@ -2255,12 +2276,12 @@ margin-bottom: 3%;
   background: url("../img/clouds/directions.png") no-repeat;
   background-position: 0 0;
 
-  animation: animated-sky 35s linear infinite;
+  animation: animated-sky1 35s linear infinite;
 
   width: 100%;
   height: 350px;
 }
-@keyframes animated-sky {
+@keyframes animated-sky1 {
   from {
     background-position: 800px 0;
   }
