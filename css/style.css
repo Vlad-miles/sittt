@@ -819,7 +819,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 @media screen and (max-width: 1200px) {
-  .bg-ex-top{
+  .bg-ex-top {
     top: 70% !important;
   }
   .top__title {
@@ -983,7 +983,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 @media screen and (max-width: 960px) {
   .bg-ex-top {
-    top: 66% !important;
+    top: 75% !important;
   }
   .wrapper {
     width: 100% !important;
@@ -1129,6 +1129,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   /*  footer  end 960*/
 }
 @media screen and (max-width: 768px) {
+  .bg-ex-top {
+    top: 80% !important;
+  }
   .wrapper {
     width: 100% !important;
     margin: 0%;
@@ -1295,6 +1298,12 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   /*  footer  end 768*/
 }
 @media screen and (max-width: 677px) {
+  .bg-ex-top {
+    top: 100% !important;
+  }
+  .bg-ex-top1 {
+    display: block !important;
+  }
   .organize__img_hidden1 {
     display: flex !important;
     margin-left: 10% !important;
@@ -1458,6 +1467,12 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   /*  footer  end 677*/
 }
 @media screen and (max-width: 480px) {
+  .bg-ex-top {
+    top: 100% !important;
+  }
+  .bg-ex-top1 {
+    display: block !important;
+  }
   .organize__title {
     font-size: 40px !important;
     line-height: 50px !important;
@@ -1731,7 +1746,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   text-shadow: 53px -11px rgba(47, 59, 91, 0.13);
   text-align: left;
   margin-top: 1%;
-margin-left: 3%;
 }
 
 .title-contener {
@@ -3998,13 +4012,14 @@ buryatia__pic {
 /*   Наши направления          */
 .bg-ex-top {
   position: absolute;
+  overflow: visible;
   top: 100%;
- left: 0;
+  left: 0;
   background: url("../img/clouds/directions.png") no-repeat;
   background-position: 0 0;
   animation: animated-sky1 35s linear infinite;
   width: 100%;
-  height: 350px;
+  height: 100%;
   z-index: 33;
 }
 
@@ -4018,15 +4033,15 @@ buryatia__pic {
 }
 .bg-ex-top1 {
   display: none;
+  overflow: visible;
   position: absolute;
-  top: 100%;
- left: 0;
+  left: 0;
   background: url("../img/clouds/directions.png") no-repeat;
   background-position: 0 0;
   animation: animated-sky1 35s linear infinite;
   width: 100%;
-  height: 350px;
-  z-index: 33;
+  height: 100%;
+  z-index: 22;
 }
 
 @keyframes animated-sky1 {
