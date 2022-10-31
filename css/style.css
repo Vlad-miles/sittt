@@ -3991,7 +3991,6 @@ buryatia__pic {
 /*   Наши направления          */
 .bg-ex-top {
   position: absolute;
-  top: 1020px;
   right: -311px;
   background: url("../img/clouds/directions.png") no-repeat;
   background-position: 0 0;
