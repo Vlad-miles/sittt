@@ -1725,6 +1725,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   text-shadow: 53px -11px rgba(47, 59, 91, 0.13);
   text-align: left;
   margin-top: 1%;
+margin-left: 3%;
 }
 
 .title-contener {
