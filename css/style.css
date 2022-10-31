@@ -819,6 +819,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 @media screen and (max-width: 1200px) {
+  .bg-ex-top{
+    top: 70% !important;
+  }
   .top__title {
     margin-left: 5%;
   }
@@ -979,6 +982,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   /*  footer  end 1200*/
 }
 @media screen and (max-width: 960px) {
+  .bg-ex-top {
+    top: 66% !important;
+  }
   .wrapper {
     width: 100% !important;
     margin: 0%;
