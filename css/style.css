@@ -1107,6 +1107,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     font-size: 115px !important;
   }
   /*  footer  start 960*/
+  .footer__list {
+    padding-left: 20% !important;
+  }
   .footer__item_hidden {
     display: none;
   }
@@ -1120,7 +1123,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     margin-right: 6% !important;
   }
   .footer-more-inf {
-    margin-left: 18% !important;
+    margin-left: 20% !important;
   }
   .footer__link {
     font-size: 30px !important;
@@ -3218,6 +3221,7 @@ buryatia__pic {
 .footer__list {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: flex-end;
   padding-left: 15%;
   margin-bottom: 3%;
   width: 100%;

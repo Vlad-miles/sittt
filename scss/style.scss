@@ -1510,6 +1510,7 @@ background: url(../img/svg/logo.svg) no-repeat;
 .footer__list {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: flex-end;
   padding-left: 15%;
   margin-bottom:3%;
   width: 100%;
