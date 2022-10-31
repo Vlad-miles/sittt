@@ -1285,7 +1285,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     margin-right: 6% !important;
   }
   .footer__item01 {
-    margin-left: 32% !important;
     margin-bottom: 5%;
   }
   .footer-more-inf {
@@ -1456,7 +1455,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     margin-right: 4% !important;
   }
   .footer__item01 {
-    margin-left: 43% !important;
     margin-bottom: 5%;
   }
   .footer__list_hidden {
@@ -1577,7 +1575,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     margin-right: 4% !important;
   }
   .footer__item01 {
-    margin-left: 53% !important;
     margin-bottom: 5%;
   }
   .footer__item1 {
@@ -1713,7 +1710,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     margin-right: 4% !important;
   }
   .footer__item01 {
-    margin-left: 0% !important;
     margin-bottom: 5%;
   }
   .footer__item1 {
@@ -3209,21 +3205,28 @@ buryatia__pic {
 /* often styles end */
 /* Footer styles start */
 .footer {
-  background: #ffffff;
   margin-top: 1%;
   margin-bottom: 5%;
+}
+
+.wrapper_footer {
+  margin: 0 auto;
+  width: 100%;
+  background: url(../img/svg/logo.svg) no-repeat;
 }
 
 .footer__list {
   display: flex;
   flex-wrap: nowrap;
+  padding-left: 15%;
+  margin-bottom: 3%;
   width: 100%;
 }
 
 .footer__list_hidden {
   display: none;
   flex-wrap: nowrap;
-  margin-left: 3%;
+  margin-left: 0%;
   margin-bottom: 3%;
 }
 
@@ -3334,7 +3337,7 @@ buryatia__pic {
 }
 
 .footer-more-inf {
-  margin-left: 13%;
+  margin-left: 15%;
   margin-bottom: 3%;
 }
 

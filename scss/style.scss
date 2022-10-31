@@ -1499,20 +1499,25 @@ buryatia__pic{
 /* Footer styles start */
 
 .footer {
-  background: #ffffff;
   margin-top: 1%;
   margin-bottom: 5%;
 }
-
+.wrapper_footer{ 
+margin: 0 auto;
+width: 100%;
+background: url(../img/svg/logo.svg) no-repeat;
+}
 .footer__list {
   display: flex;
   flex-wrap: nowrap;
+  padding-left: 15%;
+  margin-bottom:3%;
   width: 100%;
 }
 .footer__list_hidden {
   display: none;
   flex-wrap: nowrap;
-  margin-left: 3%;
+  margin-left: 0%;
   margin-bottom: 3%;
 }
 .footer__item_logo {
@@ -1617,7 +1622,7 @@ buryatia__pic{
   line-height: 24px;
 }
 .footer-more-inf {
-margin-left:13%;
+  margin-left: 15%;
 margin-bottom: 3%;
 
 
