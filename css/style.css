@@ -829,7 +829,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     column-gap: 3% !important;
   }
   .top__card {
-    margin-left: 0%;
+    justify-content: center;
+    padding-left: 1%;
+    padding-right: 3%;
   }
   .top__card-title1 {
     font-size: 60px !important;
@@ -983,7 +985,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 @media screen and (max-width: 960px) {
   .bg-ex-top {
-    top: 75% !important;
+    top: 91% !important;
   }
   .wrapper {
     width: 100% !important;
@@ -1130,7 +1132,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 @media screen and (max-width: 768px) {
   .bg-ex-top {
-    top: 80% !important;
+    top: 100% !important;
   }
   .wrapper {
     width: 100% !important;
@@ -1312,6 +1314,11 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .title-contener {
     width: 100% !important;
+  }
+  .top__card {
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .top__card-pic {
     width: 100% !important;
@@ -1733,6 +1740,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   /*  footer  end 340*/
 }
 .top {
+  display: flex;
+  align-content: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
@@ -4014,7 +4024,7 @@ buryatia__pic {
   position: absolute;
   overflow: visible;
   top: 100%;
-  left: 0;
+  left: 10px;
   background: url("../img/clouds/directions.png") no-repeat;
   background-position: 0 0;
   animation: animated-sky1 35s linear infinite;

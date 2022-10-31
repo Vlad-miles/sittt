@@ -41,6 +41,9 @@
 @import "./base/adaptation";
 
 .top {
+  display: flex;
+  align-content: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
 .top__title {
@@ -2279,7 +2282,7 @@ margin-bottom: 3%;
   position: absolute;
   overflow: visible;
   top: 100%;
- left: 0;
+ left: 10px;
   background: url("../img/clouds/directions.png") no-repeat;
   background-position: 0 0;
   animation: animated-sky1 35s linear infinite;
