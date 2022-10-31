@@ -2276,15 +2276,39 @@ margin-bottom: 3%;
 }
 /*   Наши направления          */
 .bg-ex-top {
+  overflow: visible;
   position: absolute;
-  right: -311px;
+  top: 72%;
+  left: 0;
   background: url("../img/clouds/directions.png") no-repeat;
   background-position: 0 0;
 
   animation: animated-sky1 35s linear infinite;
-
+  z-index: 30;
   width: 100%;
-  height: 350px;
+  height: 100%;
+}
+@keyframes animated-sky1 {
+  from {
+    background-position: 800px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+.bg-ex-top1 {
+  display: none;
+  overflow: visible;
+  position: absolute;
+
+  left: 0;
+  background: url("../img/clouds/directions.png") no-repeat;
+  background-position: 0 0;
+
+  animation: animated-sky1 35s linear infinite;
+  z-index: 30;
+  width: 100%;
+  height: 100%;
 }
 @keyframes animated-sky1 {
   from {
