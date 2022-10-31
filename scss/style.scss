@@ -1510,7 +1510,7 @@ background: url(../img/svg/logo.svg) no-repeat;
 .footer__list {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: flex-end;
+  justify-content: center;
   padding-left: 15%;
   margin-bottom:3%;
   width: 100%;
@@ -1555,7 +1555,7 @@ background: url(../img/svg/logo.svg) no-repeat;
   font-size: 24px;
   line-height: 28px;
   color: #37425f;
-  margin-right: 3%;
+  margin-right: 10%;
 }
 .footer__item:last-child {
   margin-right: 0;
@@ -2285,6 +2285,7 @@ margin-bottom: 3%;
 }
 /*   Наши направления          */
 .bg-ex-top {
+  display: block;
   position: absolute;
   overflow: visible;
   top: 100%;
