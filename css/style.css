@@ -904,7 +904,8 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     text-align: center;
   }
   .icon {
-    top: 13px !important;
+    display: block !important;
+    margin-bottom: 12% !important;
     right: -45px !important;
   }
   .organize-pic {
@@ -938,7 +939,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     grid-template-columns: initial !important;
   }
   .icon22 {
-    top: -10px !important;
+    display: block !important;
     left: 0px !important;
   }
   .bashkara_icon22 {
@@ -1053,7 +1054,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     text-align: center;
   }
   .icon {
-    top: 13px !important;
+    display: block !important;
     right: -45px !important;
   }
   .organize-pic {
@@ -1202,7 +1203,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     text-align: center;
   }
   .icon {
-    top: 13px !important;
+    display: block !important;
     right: -45px !important;
   }
   .organize-pic {
@@ -1507,7 +1508,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     text-align: center;
   }
   .icon {
-    top: 19px !important;
+    display: block !important;
     right: -45px !important;
   }
   .card-more-inf {
@@ -1626,8 +1627,12 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     margin-top: 7% !important;
     text-align: center;
   }
+  .tukoidsa {
+    height: 147px !important;
+    padding: 7px !important;
+  }
   .icon {
-    top: 14px !important;
+    display: block !important;
     left: 74px !important;
   }
   .card-more-inf {
@@ -2148,8 +2153,18 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   margin-bottom: 10px;
   background: rgba(185, 185, 185, 0.64);
   line-height: 40px;
+  box-shadow: 7px 7px 10px 0px #000;
   border-width: 0;
   font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+}
+
+.colortext {
+  color: #FFFFFF;
+}
+
+input::placeholder {
+  color: #FFFFFF;
 }
 
 .form-inner h3 {

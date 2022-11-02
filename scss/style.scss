@@ -452,10 +452,17 @@ margin-bottom: 5%;
   margin-bottom: 10px;
   background: rgba(185, 185, 185, 0.64);
   line-height: 40px;
+  box-shadow: 7px 7px 10px 0px #000;
   border-width: 0;
   font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
 }
-
+.colortext{
+  color: #FFFFFF;
+}
+input::placeholder {
+  color: #FFFFFF;
+}
 .form-inner h3 {
   margin-top: 0;
   font-family: "Roboto", sans-serif;
