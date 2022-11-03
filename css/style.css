@@ -966,15 +966,13 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .footer__list_hidden {
     display: flex !important;
+    margin-top: 5%;
   }
   .footer__item {
     margin-right: 6% !important;
   }
   .footer__item01 {
     margin-right: 6% !important;
-  }
-  .footer-more-inf {
-    margin-left: 18% !important;
   }
   .footer__link {
     font-size: 40px !important;
@@ -1123,9 +1121,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .footer__item01 {
     margin-right: 6% !important;
   }
-  .footer-more-inf {
-    margin-left: 20% !important;
-  }
   .footer__link {
     font-size: 28px !important;
   }
@@ -1228,8 +1223,17 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .tours__card-line {
     display: none;
   }
+  .tour_txt_margin {
+    margin-left: 3%;
+  }
+  .tour__pic {
+    display: flex;
+    flex-direction: column;
+  }
   .Ellipse {
-    max-width: 354px !important;
+    position: absolute;
+    opacity: 0.3 !important;
+    max-width: 314px !important;
     margin: 5px 50px 2px 0px !important;
   }
   .tours_text {
@@ -1302,9 +1306,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .footer__item01 {
     margin-bottom: 5%;
-  }
-  .footer-more-inf {
-    margin-left: 18% !important;
   }
   .footer__link {
     font-size: 25px !important;
@@ -1454,6 +1455,10 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     font-size: 60px !important;
   }
   /*  footer  start 677*/
+  .wrapper_footer {
+    background: url(../img/svg/logo.svg) no-repeat;
+    background-size: 33% !important;
+  }
   .footer__it_hidden {
     display: flex !important;
   }
@@ -1475,9 +1480,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .footer__list_hidden {
     margin-left: 12% !important;
-  }
-  .footer-more-inf {
-    margin-left: 18% !important;
   }
   .footer__link {
     font-size: 25px !important;
@@ -1577,6 +1579,10 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     font-size: 50px !important;
   }
   /*  footer  start 480*/
+  .wrapper_footer {
+    background: url(../img/svg/logo.svg) no-repeat;
+    background-size: 31% !important;
+  }
   .footer__list {
     display: none !important;
     flex-wrap: wrap !important;
@@ -1601,9 +1607,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .footer__list_hidden {
     margin-left: 12% !important;
-  }
-  .footer-more-inf {
-    margin-left: 18% !important;
   }
   .footer__link {
     font-size: 20px !important;
@@ -1756,9 +1759,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .footer__list_hidden {
     margin-left: 12% !important;
-  }
-  .footer-more-inf {
-    margin-left: 18% !important;
   }
   .footer__link {
     font-size: 20px !important;
@@ -3399,8 +3399,8 @@ buryatia__pic {
 }
 
 .footer-more-inf {
-  margin-left: 15%;
-  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-more {

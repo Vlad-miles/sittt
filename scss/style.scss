@@ -1643,10 +1643,8 @@ background: url(../img/svg/logo.svg) no-repeat;
   line-height: 24px;
 }
 .footer-more-inf {
-  margin-left: 15%;
-margin-bottom: 3%;
-
-
+  display: flex;
+  justify-content: center;
 }
 .footer-more {
   display: inline-block;
