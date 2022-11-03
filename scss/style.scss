@@ -190,7 +190,6 @@
   font-weight: 800;
   font-size: 40px;
   line-height: 47px;
-
   color: #2f3b5b;
   text-shadow: 19px -11px rgba($color: #2f3b5b, $alpha: 0.13);
   padding: 0px 0px 0px 0px;
@@ -281,7 +280,11 @@
   color: #fff;
   padding: 0% 3% 0% 10%;
 }
-
+.Ellipse{
+  float:left;
+max-width:454px;
+  margin: 5px 100px 2px 0px;
+}
 .tours_text {
 
   font-family: 'Inter';
@@ -798,7 +801,7 @@ margin-right: 3%;
   -ms-flex-align: center;
   align-items: center;
 margin-right: 3%;
-  padding: 0px 0px 0px 80px;
+  padding: 0px 30px 0px 30px;
 }
 .gallery__tour_hidden1 {
   display: grid;
@@ -1518,6 +1521,14 @@ background: url(../img/svg/logo.svg) no-repeat;
 }
 .footer__list {
   display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-left: 15%;
+  margin-bottom:3%;
+  width: 100%;
+}
+.footer__it_hidden {
+  display: none;
   flex-wrap: nowrap;
   justify-content: center;
   padding-left: 15%;
