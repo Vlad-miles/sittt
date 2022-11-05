@@ -448,7 +448,7 @@ body {
  * Стили для отображения слоёв и контейнеров
  */
 .wrapper {
-  margin: 0 auto;
+  display: flex;
 }
 
 .wrapper-full {
@@ -485,7 +485,7 @@ body {
   }
   .header__wrapper .header__nav.header__nav_active {
     position: fixed;
-    z-index: 110;
+    z-index: 99999;
     top: 0;
     left: 0;
     width: 100%;
@@ -820,45 +820,26 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 
 @media screen and (max-width: 1200px) {
   .bg-ex-top {
-    top: 70% !important;
-  }
-  .top__title {
-    margin-left: 5%;
+    top: 49% !important;
   }
   .top__cards {
     column-gap: 3% !important;
   }
   .top__card {
     justify-content: center;
-    padding-left: 1%;
-    padding-right: 3%;
   }
-  .top__card-title1 {
-    font-size: 60px !important;
+  .top__card-title {
+    font-size: 4rem !important;
   }
   .title-contener {
-    min-width: 100%;
-  }
-  .top__card-pic {
-    min-width: 100%;
-  }
-  .top__card-pic1 {
     min-width: 100%;
   }
   .top__card-title {
     font-weight: 700;
     font-size: 60px;
   }
-  .top__card-title2 {
-    font-weight: 700 !important;
-    font-size: 60px !important;
-  }
   .organize-background {
     background: url(../img/svg/background-organize.svg) 10% 10% no-repeat scroll !important;
-  }
-  .tours__card-title {
-    font-size: 25px !important;
-    line-height: 28px !important;
   }
   .organize__tour {
     column-gap: 10% !important;
@@ -866,30 +847,22 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .organize__img {
     margin-right: 3%;
   }
-  .way-title {
-    font-size: 130px !important;
-    line-height: 80px !important;
-  }
   .buryatia__info {
     margin-left: 5% !important;
   }
   #navbar {
     margin-left: 8% !important;
   }
-  .organize__info {
-    margin-top: 3%;
-  }
   .organize__img {
     display: none !important;
   }
-  .organize__tour {
-    padding: 40px 0px 20px 0px !important;
-  }
   .organize__img_hidden1 {
-    display: flex !important;
-    margin-left: 20% !important;
+    display: grid !important;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
   }
   .organize__list {
     display: flex;
@@ -925,9 +898,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .gall {
     width: 100%;
-  }
-  .animation {
-    font-size: 140px !important;
   }
   .bashkara__info {
     display: none;
@@ -974,68 +944,107 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .footer__item01 {
     margin-right: 6% !important;
   }
-  .footer__link {
-    font-size: 40px !important;
-  }
-  .footer-it {
-    font-size: 30px !important;
-  }
   /*  footer  end 1200*/
 }
 @media screen and (max-width: 960px) {
-  .bg-ex-top {
-    top: 69% !important;
+  .tour__thumb1 {
+    margin-bottom: 3%;
   }
-  .wrapper {
-    width: 100% !important;
-    margin: 0%;
+  .tours__card-title {
+    font-weight: 800 !important;
+    font-size: 28px !important;
+    line-height: 33px !important;
   }
-  .intro_h1 {
-    font-size: 70px !important;
-    line-height: 94px !important;
+  .tours__card-title1 {
+    font-weight: 800 !important;
+    font-size: 28px !important;
+    line-height: 33px !important;
   }
-  .wrapper-full {
-    width: 100% !important;
-    margin: 0%;
+  .tours__card-title02 {
+    font-weight: 800 !important;
+    font-size: 28px !important;
+    line-height: 33px !important;
+  }
+  .top__card {
+    margin-bottom: 5%;
   }
   .top__card-title1 {
+    font-weight: 900 !important;
+    font-size: 45px !important;
+  }
+  .top__card-title {
+    font-weight: 900 !important;
+    font-size: 65px !important;
+  }
+  .top__card-title2 {
+    font-weight: 900 !important;
+    font-size: 65px !important;
+  }
+  .top__title {
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .organize__desc {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 23px !important;
+  }
+  .questions-title1 {
+    font-weight: 500 !important;
+    font-size: 25px !important;
+  }
+  .top__cards {
+    flex-direction: column;
+  }
+  .questions-title {
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .gallery__title {
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .tours_topic1 {
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .tours_topic {
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .organize__title {
+    font-family: "Roboto" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
     font-size: 50px !important;
+    line-height: 59px !important;
+  }
+  .bg-ex-top {
+    top: 48% !important;
+  }
+  .wrapper {
+    margin: 0%;
+  }
+  .wrapper-full {
+    margin: 0%;
   }
   .top__card {
     justify-content: center;
-  }
-  .top__card-title {
-    font-size: 60px !important;
-  }
-  .top__card-title2 {
-    font-size: 60px !important;
+    margin-bottom: 5%;
   }
   .top__card-more {
     padding: 5% 19% !important;
   }
-  .tours__card-stats {
-    margin-bottom: 10% !important;
-  }
-  .tours__card-title02 {
-    font-size: 25px !important;
-    line-height: 28px !important;
-  }
-  .tours__card-title1 {
-    font-size: 25px !important;
-    line-height: 28px !important;
-  }
-  .organize__info {
-    margin-top: 3%;
-  }
   .organize__img {
     display: none !important;
   }
-  .organize__tour {
-    padding: 40px 0px 20px 0px !important;
-  }
   .organize__img_hidden1 {
-    display: flex !important;
-    margin-left: 20% !important;
+    display: grid !important;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -1070,10 +1079,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .buryatia_text {
     margin-left: 6% !important;
   }
-  .way-title {
-    font-size: 100px !important;
-    line-height: 80px !important;
-  }
   .namely_buryatia-block {
     height: 100% !important;
   }
@@ -1087,13 +1092,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .namely_buryatia {
     background: url(../img/svg/background-desktop20.svg) no-repeat scroll -23% 95% !important;
   }
-  .namely_buryatia-text {
-    font-size: 35px !important;
-    line-height: 47px !important;
-  }
   .namely_buryatia-text1 {
-    font-size: 19px !important;
-    line-height: 28px !important;
     padding-left: 3%;
   }
   .buryatia__info {
@@ -1121,33 +1120,41 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .footer__item01 {
     margin-right: 6% !important;
   }
-  .footer__link {
-    font-size: 28px !important;
-  }
-  .footer-it {
-    font-size: 25px !important;
-  }
   /*  footer  end 960*/
 }
-.tours_topic {
-  font-size: 36px !important;
-  line-height: 46px !important;
-}
-
 @media screen and (max-width: 768px) {
   .bg-ex-top {
-    top: 75% !important;
+    top: 48% !important;
+  }
+  .tours_topic {
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .organize__title {
+    font-family: "Roboto" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 50px !important;
+    line-height: 59px !important;
   }
   .wrapper {
     width: 100% !important;
     margin: 0%;
   }
-  .intro_h1 {
-    font-size: 70px !important;
-    line-height: 94px !important;
+  .tours__list {
+    column-gap: 3% !important;
+    flex-wrap: nowrap !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    align-items: center !important;
+  }
+  .tours__card-title {
+    font-weight: 800 !important;
+    font-size: 28px !important;
+    line-height: 33px !important;
   }
   .wrapper-full {
-    width: 100% !important;
     margin: 0%;
   }
   .top__card-title1 {
@@ -1156,34 +1163,11 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .top__card {
     justify-content: center;
   }
-  .top__card-title {
-    font-size: 60px !important;
-  }
-  .top__card-title2 {
-    font-size: 60px !important;
-  }
   .top__card-more {
     padding: 5% 19% !important;
   }
-  .tours__card-stats {
-    margin-bottom: 10% !important;
-  }
-  .tours__card-title02 {
-    font-size: 25px !important;
-    line-height: 28px !important;
-  }
-  .tours__card-title1 {
-    font-size: 25px !important;
-    line-height: 28px !important;
-  }
-  .organize__info {
-    margin-top: 3%;
-  }
   .organize__img {
     display: none !important;
-  }
-  .organize__tour {
-    padding: 40px 0px 20px 0px !important;
   }
   .organize__list {
     display: flex;
@@ -1208,17 +1192,12 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !important;
   }
   .organize__img_hidden1 {
-    display: flex !important;
-    margin-left: 15% !important;
+    display: grid !important;
     flex-direction: row;
     flex-wrap: wrap;
   }
   .tours__list {
     flex-direction: column !important;
-  }
-  .tours__card-title {
-    font-size: 55px !important;
-    line-height: 70px !important;
   }
   .tours__card-line {
     display: none;
@@ -1230,38 +1209,23 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     display: flex;
     flex-direction: column;
   }
+  .tour_txt_margin {
+    z-index: 1;
+  }
   .Ellipse {
     position: absolute;
-    opacity: 0.3 !important;
-    max-width: 314px !important;
+    opacity: 0.2 !important;
     margin: 5px 50px 2px 0px !important;
+  }
+  .gallery {
+    background-size: 65% !important;
   }
   .tours_text {
     display: flex;
   }
-  .tours__card-title02 {
-    font-size: 55px !important;
-    line-height: 70px !important;
-  }
-  .tours__card-title1 {
-    font-size: 55px !important;
-    line-height: 70px !important;
-  }
   .tour__info {
     min-width: 50%;
     height: 100%;
-  }
-  .way-title {
-    font-size: 95px !important;
-    line-height: 80px !important;
-  }
-  .way-text {
-    font-size: 110px !important;
-    line-height: 70px !important;
-  }
-  .way-text1 {
-    font-size: 110px !important;
-    line-height: 70px !important;
   }
   .gallery__tour {
     display: none !important;
@@ -1274,9 +1238,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     width: 100%;
     margin-top: 3%;
     margin-bottom: 3%;
-  }
-  .animation {
-    font-size: 100px !important;
   }
   .bashkara__tour1 {
     display: flex !important;
@@ -1317,14 +1278,13 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 @media screen and (max-width: 677px) {
   .bg-ex-top {
-    top: 74% !important;
+    top: 50% !important;
   }
   .bg-ex-top1 {
     display: block !important;
   }
   .organize__img_hidden1 {
-    display: flex !important;
-    margin-left: 10% !important;
+    display: grid !important;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -1333,11 +1293,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .top__card {
     justify-content: center;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  .top__card-pic {
-    width: 100% !important;
   }
   .card-more-inf {
     margin-top: 5%;
@@ -1352,20 +1307,8 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .tours__list {
     flex-direction: column !important;
   }
-  .tours__card-title {
-    font-size: 55px !important;
-    line-height: 70px !important;
-  }
   .tours__card-thumb {
     width: 15%;
-  }
-  .tours__card-title02 {
-    font-size: 55px !important;
-    line-height: 70px !important;
-  }
-  .tours__card-title1 {
-    font-size: 55px !important;
-    line-height: 70px !important;
   }
   .tour__info {
     min-width: 50%;
@@ -1374,32 +1317,12 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .team__card-more {
     padding: 5% 5% !important;
   }
-  .way-title {
-    font-size: 65px !important;
-    line-height: 1px !important;
-  }
-  .way-text {
-    font-size: 80px !important;
-    line-height: 60px !important;
-  }
-  .way-text1 {
-    font-size: 80px !important;
-    line-height: 60px !important;
-  }
   .namely__buryatia-cards {
     flex-wrap: nowrap;
     flex-direction: column;
   }
   .namely_buryatia-thumb1 {
     padding: 0 !important;
-  }
-  .namely_buryatia__title {
-    font-size: 20px !important;
-    line-height: 26px !important;
-  }
-  .namely_buryatia__title1 {
-    font-size: 17px !important;
-    line-height: 20px !important;
   }
   .namely_buryatia-block {
     height: 100% !important;
@@ -1414,14 +1337,11 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   .namely_buryatia {
     background: url(../img/svg/background-desktop20.svg) no-repeat scroll 30% 80% !important;
   }
-  .namely_buryatia-text {
-    font-size: 35px !important;
-    line-height: 47px !important;
-  }
   .namely_buryatia-text1 {
-    font-size: 19px !important;
-    line-height: 28px !important;
     padding-left: 3%;
+  }
+  .gallery {
+    background-size: 60% !important;
   }
   .gallery__tour {
     display: flex !important;
@@ -1491,24 +1411,16 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 @media screen and (max-width: 480px) {
   .bg-ex-top {
-    top: 82% !important;
+    top: 50% !important;
   }
   .bg-ex-top1 {
     display: block !important;
-  }
-  .organize__title {
-    font-size: 40px !important;
-    line-height: 50px !important;
-  }
-  .organize__desc {
-    font-size: 25px !important;
   }
   .organize__desc1 {
     padding: 0px 0px 40px 0px !important;
   }
   .organize__img_hidden1 {
-    display: flex !important;
-    margin-left: 0% !important;
+    display: grid !important;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -1530,40 +1442,11 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     row-gap: 0px;
     flex-direction: column;
   }
-  .tours__card-title {
-    font-size: 30px !important;
-    line-height: 50px !important;
-  }
   .tours__card-thumb {
     width: 15%;
   }
-  .tours__card-title02 {
-    font-size: 30px !important;
-    line-height: 50px !important;
-  }
-  .tours__card-title1 {
-    font-size: 30px !important;
-    line-height: 50px !important;
-  }
-  .tours__card-stats {
-    margin-bottom: 12% !important;
-  }
-  .tours_topic {
-    font-size: 50px !important;
-    line-height: 50px !important;
-  }
   .way-title {
-    font-size: 46px !important;
-    line-height: 1px !important;
     padding: 70px 0px 70px 0px !important;
-  }
-  .way-text {
-    font-size: 55px !important;
-    line-height: 40px !important;
-  }
-  .way-text1 {
-    font-size: 55px !important;
-    line-height: 40px !important;
   }
   .namely_buryatia_tour {
     display: flex !important;
@@ -1577,6 +1460,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   }
   .animation {
     font-size: 50px !important;
+  }
+  .gallery {
+    background-size: 55% !important;
   }
   /*  footer  start 480*/
   .wrapper_footer {
@@ -1625,22 +1511,15 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     display: none !important;
   }
   .bg-ex-top {
-    top: 76% !important;
+    top: 50% !important;
   }
   .organize__title {
-    font-size: 27px !important;
     line-height: 35px !important;
   }
   .animation {
-    font-size: 45px !important;
     line-height: 100px !important;
   }
-  .organize__desc {
-    font-size: 21px !important;
-    line-height: 25px !important;
-  }
   .organize__lil {
-    font-size: 17px !important;
     margin-top: 7% !important;
     text-align: center;
   }
@@ -1662,59 +1541,14 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     row-gap: 0px;
     flex-direction: column;
   }
-  .top__title {
-    font-size: 36px !important;
-    line-height: 40px !important;
-  }
-  .top__card-title1 {
-    font-size: 36px !important;
-    line-height: 40px !important;
-  }
-  .top__card-title {
-    font-size: 47px !important;
-    line-height: 55px !important;
-  }
-  .top__card-title2 {
-    font-size: 47px !important;
-    line-height: 55px !important;
-  }
   .card-more-inf {
     margin-bottom: 5% !important;
-  }
-  .tours__card-title {
-    font-size: 20px !important;
-    line-height: 30px !important;
   }
   .tours__card-thumb {
     width: 15%;
   }
-  .tours__card-title02 {
-    font-size: 20px !important;
-    line-height: 30px !important;
-  }
-  .tours__card-title1 {
-    font-size: 20px !important;
-    line-height: 30px !important;
-  }
-  .tours__card-stats {
-    margin-bottom: 12% !important;
-  }
-  .tours_topic {
-    font-size: 28px !important;
-    line-height: 30px !important;
-  }
   .way-title {
-    font-size: 34px !important;
-    line-height: 1px !important;
     padding: 50px 0px 50px 0px !important;
-  }
-  .way-text {
-    font-size: 40px !important;
-    line-height: 30px !important;
-  }
-  .way-text1 {
-    font-size: 40px !important;
-    line-height: 30px !important;
   }
   .namely_buryatia_tour {
     display: flex !important;
@@ -1773,8 +1607,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 .top {
   display: flex;
-  align-content: center;
-  justify-content: center;
+  margin-top: 5%;
   margin-bottom: 20px;
 }
 
@@ -1787,6 +1620,8 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   color: #2f3b5b;
   text-shadow: 53px -11px rgba(47, 59, 91, 0.13);
   text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 1%;
 }
 
@@ -1805,27 +1640,33 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .top__cards {
-  display: flex;
   column-gap: 57px;
   row-gap: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .top__card-pic {
+  display: flex;
   position: relative;
+  align-items: center;
   width: 100%;
-  margin-bottom: 13px;
+  margin-bottom: 3%;
 }
 
 .top__card-pic1 {
+  display: flex;
+  align-items: center;
   position: relative;
   width: 100%;
-  margin-bottom: 13px;
+  margin-bottom: 3%;
 }
 
 .top__card {
   max-width: 100%;
   max-height: 100%;
   display: flex;
+  margin-bottom: 3%;
   flex-direction: column;
   -ms-grid-column-span: 2;
   grid-column: span 2;
@@ -1833,15 +1674,8 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .top__card-stats {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
   position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
-  margin-bottom: 45%;
 }
 
 .top__card-title {
@@ -1851,6 +1685,8 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   line-height: 80px;
   color: #fff;
   margin: 0 auto;
+  margin-left: 3%;
+  margin-right: 3%;
   text-align: center;
 }
 
@@ -1861,6 +1697,8 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   line-height: 80px;
   color: #fff;
   margin: 0 auto;
+  margin-left: 3%;
+  margin-right: 3%;
   text-align: center;
 }
 
@@ -1890,6 +1728,9 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 /* Top places styles end */
 /* Tours styles start */
 .tours {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 1%;
 }
 
@@ -1901,7 +1742,8 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   color: #2f3b5b;
   text-shadow: 40px -20px rgba(47, 59, 91, 0.13);
   margin-top: 5%;
-  margin-left: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 3%;
 }
 
@@ -1913,29 +1755,30 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   line-height: 47px;
   color: #2f3b5b;
   text-shadow: 19px -11px rgba(47, 59, 91, 0.13);
-  padding: 0px 0px 0px 0px;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .tours__tour {
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-start;
+  margin-top: 3%;
   margin-bottom: 77px;
 }
 
 .tours__list {
   display: flex;
+  column-gap: 3%;
   flex-wrap: nowrap;
-  margin-left: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .tours__card_pic {
   width: 100%;
   height: 100%;
-}
-
-.tours__item {
-  margin-right: 3%;
 }
 
 .tour__info {
@@ -1952,6 +1795,8 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .tours__card-pic {
+  display: flex;
+  align-items: center;
   position: relative;
   margin-bottom: 13px;
 }
@@ -1963,15 +1808,19 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   grid-column: span 2;
 }
 
+.tours__card_pic {
+  min-width: 418px;
+  max-height: 264px;
+}
+
 .tours__card-stats {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   position: absolute;
   width: 100%;
-  bottom: 0;
-  margin-bottom: 25%;
+}
+
+.zentr {
+  display: flex;
 }
 
 .tours__card-title {
@@ -1980,7 +1829,8 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   font-size: 28px;
   line-height: 33px;
   color: #fff;
-  padding: 0% 3% 0% 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .tours__card-title02 {
@@ -1989,7 +1839,8 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   font-size: 28px;
   line-height: 33px;
   color: #fff;
-  padding: 0% 3% 0% 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .tours__card-title1 {
@@ -1998,21 +1849,33 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
   font-size: 28px;
   line-height: 33px;
   color: #fff;
-  padding: 0% 3% 0% 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .Ellipse {
   float: left;
+  opacity: 0.8;
   max-width: 454px;
   margin: 5px 100px 2px 0px;
 }
 
+.tour_txt_margin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 729px;
+}
+
 .tours_text {
+  display: flex;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
   color: #000000;
 }
 
@@ -2138,7 +2001,6 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .questions-back {
-  height: 488px;
   background: url(../img/svg/lodka.svg) no-repeat center;
   background-size: cover;
 }
@@ -2149,14 +2011,17 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .questions-title {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 600;
-  font-size: 60px;
-  line-height: 70px;
-  min-width: 547px;
+  font-size: 47px;
+  line-height: 55px;
   color: #ffffff;
 }
 
 .questions-title1 {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 25px;
   line-height: 129.19%;
@@ -2169,7 +2034,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .form-inner {
-  padding: 50px;
+  padding: 5%;
 }
 
 .form-inner input {
@@ -2203,6 +2068,7 @@ input::placeholder {
 
 .questions-more-inf {
   margin-top: 5% !important;
+  margin-bottom: 5% !important;
   margin: 0 auto;
 }
 
@@ -2356,6 +2222,9 @@ input::placeholder {
 /* organize styles start ВСЁ УЖЕ
 ОРГАНИЗОВАНО!*/
 .organize {
+  display: flex;
+  align-content: center;
+  justify-content: center;
   position: relative;
   top: -10px;
   margin-bottom: 1%;
@@ -2420,28 +2289,55 @@ input::placeholder {
   margin-bottom: 0 auto;
 }
 
+.organize__info {
+  padding: 5%;
+}
+
 .organize__tour {
   display: flex;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 108px;
   align-items: center;
   margin-bottom: 0px;
-  padding: 40px 0px 110px 0px;
+  padding: 5%;
   flex-direction: row;
 }
 
 .organize__img {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 0%;
-  padding: 0px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "organize-block1 organize-block2 organize-block3" "organize-block4 organize-block5 organize-block6" ". . ." ". . ." ". . .";
+}
+
+.organize-block1 {
+  grid-area: organize-block1;
+}
+
+.organize-block2 {
+  grid-area: organize-block2;
+}
+
+.organize-block3 {
+  grid-area: organize-block3;
+}
+
+.organize-block4 {
+  grid-area: organize-block4;
+}
+
+.organize-block5 {
+  grid-area: organize-block5;
+}
+
+.organize-block6 {
+  grid-area: organize-block6;
 }
 
 .organize__img_hidden1 {
   display: none;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 0%;
-  padding: 0px;
+  gap: 0px 0px;
+  grid-template-areas: "organize-block1 organize-block2 organize-block3" "organize-block4 organize-block5 organize-block6" ". . ." ". . ." ". . .";
 }
 
 .organize__img_hidden {
@@ -2457,14 +2353,11 @@ input::placeholder {
   margin-bottom: 0px;
 }
 
-.organize__info {
-  margin-left: 10%;
-}
-
 .organize__title {
   font-weight: 700;
   font-size: 64px;
   line-height: 75px;
+  padding-bottom: 5%;
   color: #37425f;
 }
 
@@ -2473,7 +2366,6 @@ input::placeholder {
   font-size: 26px;
   line-height: 30px;
   color: #37425f;
-  padding: 22px 0px 0px 0px;
 }
 
 .organize__desc1 {
@@ -2481,7 +2373,7 @@ input::placeholder {
   font-size: 26px;
   line-height: 30px;
   color: #37425f;
-  padding: 0px 0px 70px 0px;
+  padding: 5%;
 }
 
 .organize__list {
@@ -2502,23 +2394,86 @@ input::placeholder {
 ОРГАНИЗОВАНО!*/
 /* gallery styles start */
 .gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 1%;
-  background: #37425f;
+  background: url(../img/gallery.png) no-repeat scroll 100% 0% #37425f;
 }
 
 .gallery-wrapper {
-  padding-top: 25px;
   margin: 0 auto;
-  background: url(../img/gallery.png) no-repeat scroll 100% 0%;
+  padding-top: 25px;
+}
+
+.gallery__info {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .gallery__tour {
+  max-width: 1120px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 42px;
-  align-items: center;
-  margin-right: 3%;
-  padding: 0px 0px 0px 80px;
+  grid-template-rows: 1fr;
+  gap: 2% 3%;
+  margin-bottom: 3%;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  grid-template-areas: "gallery1 gallery1-2 gallery7" "gallery4-5 gallery6 gallery7";
+}
+
+.gallery1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery2-3 {
+  display: grid;
+  align-content: space-between;
+  gap: 0px 0px;
+  grid-template-areas: "gallery2 gallery2 gallery2" ". . ." "gallery3 gallery3 gallery3";
+}
+
+.gallery2 {
+  grid-area: gallery2;
+}
+
+.gallery3 {
+  grid-area: gallery3;
+}
+
+.gallery4-5 {
+  display: grid;
+  align-content: space-between;
+  gap: 0px 0px;
+  grid-template-areas: "gallery4 gallery4 gallery4" ". . ." "gallery5 gallery5 gallery5";
+}
+
+.gallery6 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.gallery7 {
+  height: 100%;
+  width: 100%;
+}
+
+.gallery4 {
+  grid-area: gallery4;
+}
+
+.gallery5 {
+  grid-area: gallery5;
+}
+
+.gallery6 {
+  grid-area: gallery6;
+}
+
+.gallery7 {
+  grid-area: gallery7;
 }
 
 .gallery__tour_hidden {
@@ -2538,10 +2493,6 @@ input::placeholder {
   margin-right: 3%;
 }
 
-.gallery__info {
-  padding-left: 47px;
-}
-
 .gallery__title {
   display: inline-block;
   vertical-align: middle;
@@ -2551,24 +2502,6 @@ input::placeholder {
   color: #ffffff;
   text-shadow: 20px -10px rgba(255, 255, 255, 0.1882352941);
   margin-bottom: 3%;
-}
-
-.gallery__cards {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 30px;
-  padding: 0px 0px 30px 0px;
-}
-
-.gallery__card {
-  -ms-grid-column-span: 1;
-  grid-column: span 1;
-  padding: 20px 0px 0px 0px;
-  margin-bottom: 23px;
-}
-
-.gall {
-  padding: 20px 0px 0px 0px;
 }
 
 /* gallery styles end */
@@ -3257,14 +3190,19 @@ buryatia__pic {
 /* often styles end */
 /* Footer styles start */
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 1%;
-  margin-bottom: 5%;
 }
 
 .wrapper_footer {
   margin: 0 auto;
-  width: 100%;
   background: url(../img/svg/logo.svg) no-repeat;
+}
+
+.footer__list {
+  margin-top: 1%;
 }
 
 .footer__list {
@@ -4096,7 +4034,7 @@ buryatia__pic {
   animation: animated-sky1 35s infinite;
   width: 100%;
   height: 100%;
-  z-index: 33;
+  z-index: 1;
 }
 
 @keyframes animated-sky1 {

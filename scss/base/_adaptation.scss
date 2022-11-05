@@ -1,49 +1,34 @@
  @media screen and (max-width: 1200px) {
   .bg-ex-top{
-    top: 70% !important;
+    top: 49% !important;
   }
-  .top__title{
-    margin-left: 5%;
-    
-  }.top__cards{
+  
+  .top__cards{
      column-gap: 3% !important;
   }
   .top__card{
     justify-content: center;
-    padding-left: 1%;
-    padding-right: 3%;
+  
+  }
+  .top__card-title{
+    font-size: 4rem !important;
   }
  
-  .top__card-title1{
-  
-    font-size: 60px !important;
-  }
   .title-contener{
     min-width: 100%;
   }
-  .top__card-pic{
-    min-width: 100%;
-  }
-  .top__card-pic1{
-    min-width: 100%;
-  }
+ 
+
   .top__card-title{
     font-weight: 700;
     font-size: 60px;
   }
 
-  .top__card-title2{
-   
-    font-weight: 700 !important;
-    font-size: 60px !important;
-  }
+
   .organize-background {
     background: url(../img/svg/background-organize.svg) 10% 10% no-repeat scroll !important;
 }
-.tours__card-title{
-  font-size: 25px!important;
-  line-height: 28px!important;
-}
+
 .organize__tour{
   column-gap: 10%!important;
 }
@@ -51,31 +36,26 @@
   margin-right: 3%;
 }
 
-.way-title{
-  font-size: 130px!important;
-    line-height: 80px!important;
-}
+
 .buryatia__info {
   margin-left: 5%!important;
 }
 #navbar{
   margin-left: 8%!important;
 }
-.organize__info{
-  margin-top: 3%;
-}
+
 .organize__img{
   display: none !important;
 
 }
-.organize__tour{
-  padding: 40px 0px 20px 0px !important; 
-}
+
 .organize__img_hidden1 {
-display: flex !important;
-    margin-left: 20% !important;
+display: grid !important;
+justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 5% !important;
+  padding-right: 5% !important;
 }
 .organize__list {
   display: flex;
@@ -113,9 +93,7 @@ background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !im
 .gall{
   width: 100%;
 }
-.animation{
-  font-size: 140px !important;
-}
+
 .bashkara__info{
   display: none;
 }
@@ -162,69 +140,118 @@ margin-top: 5%;
   margin-right: 6%!important;
 }
 
-.footer__link {
-  font-size: 40px !important;
-}
-.footer-it{
-  font-size: 30px !important;
-}
+
 /*  footer  end 1200*/
 }
 @media screen and (max-width: 960px) {
-  .bg-ex-top{
-    top: 69% !important;
+ .tour__thumb1{
+margin-bottom: 3%;
   }
-  .wrapper{
-    width: 100% !important;
-    margin: 0%;
+  .tours__card-title{
+    font-weight: 800!important;
+font-size: 28px!important;
+line-height: 33px!important;
   }
-  .intro_h1{
-    font-size: 70px !important;
-    line-height: 94px !important;
+  .tours__card-title1{
+    font-weight: 800!important;
+font-size: 28px!important;
+line-height: 33px!important;
   }
-  .wrapper-full{
-    width: 100% !important;
-    margin: 0%;
-  }
-  .top__card-title1{
-    font-size: 50px!important;
+  .tours__card-title02{
+    font-weight: 800!important;
+font-size: 28px!important;
+line-height: 33px!important;
   }
   .top__card{
-    justify-content: center; 
+    margin-bottom: 5%;
+  }
+  .top__card-title1{
+    font-weight: 900!important;
+font-size: 45px!important;
   }
   .top__card-title{
-    font-size: 60px !important;
+    font-weight: 900!important;
+    font-size: 65px!important;
   }
   .top__card-title2{
-    font-size: 60px !important;
+    font-weight: 900!important;
+font-size: 65px!important;
   }
+  .top__title{
+    font-weight: 800!important;
+    font-size: 30px!important;
+    line-height: 35px!important; 
+  }
+  .organize__desc{
+    font-weight: 500!important; 
+font-size: 20px!important; 
+line-height: 23px!important; 
+  }
+  .questions-title1{
+    font-weight: 500!important; 
+    font-size: 25px!important; 
+  }
+  .top__cards{
+    flex-direction: column;
+  }
+  .questions-title{
+    font-weight: 800!important;
+    font-size: 30px!important;
+    line-height: 35px!important; 
+  }
+  .gallery__title{
+    font-weight: 800!important;
+    font-size: 30px!important;
+    line-height: 35px!important;
+  }
+  .tours_topic1{
+    font-weight: 800!important;
+    font-size: 30px!important;
+    line-height: 35px!important;
+  }
+  .tours_topic{
+    font-weight: 800!important;
+font-size: 30px!important;
+line-height: 35px!important;
+  }
+  .organize__title{
+    font-family: 'Roboto'!important;
+    font-style: normal!important;
+    font-weight: 700!important;
+    font-size: 50px!important;
+    line-height: 59px!important;
+  }
+  
+  .bg-ex-top{
+    top: 48% !important;
+  }
+  .wrapper{
+  
+    margin: 0%;
+  }
+
+  .wrapper-full{
+
+    margin: 0%;
+  }
+ 
+  .top__card{
+    justify-content: center; 
+    margin-bottom: 5%;
+  }
+ 
   .top__card-more{
     padding: 5% 19% !important;
   }
-  .tours__card-stats{
-    margin-bottom: 10% !important;
-  }
-  .tours__card-title02{
-    font-size: 25px !important;
-    line-height: 28px !important;
-  }
-  .tours__card-title1{
-    font-size: 25px !important;
-    line-height: 28px !important;
-  }
-  .organize__info{
-    margin-top: 3%;
-  }
+ 
+  
   .organize__img{
     display: none !important;
 
   }
-  .organize__tour{
-    padding: 40px 0px 20px 0px !important; 
-  }
+
   .organize__img_hidden1 {
-    display: flex !important;
-    margin-left: 20% !important;
+    display: grid !important;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -260,10 +287,7 @@ margin-top: 5%;
 .buryatia_text{
   margin-left: 6%!important;
 }
-.way-title{
-  font-size: 100px!important;
-    line-height: 80px!important;
-}
+
 .namely_buryatia-block{
   height:  100% !important;
 }
@@ -277,13 +301,8 @@ margin-top: 5%;
 .namely_buryatia{
   background: url(../img/svg/background-desktop20.svg) no-repeat scroll -23% 95% !important;
 }
-.namely_buryatia-text {
-  font-size: 35px !important;
-  line-height: 47px !important;
-}
+
 .namely_buryatia-text1 {
-  font-size: 19px !important;
-  line-height: 28px !important;
   padding-left: 3%;
 }
 .buryatia__info {
@@ -312,32 +331,44 @@ margin-top: 5%;
     margin-right: 6%!important;
   }
  
-  .footer__link {
-    font-size: 28px !important;
-  }
-  .footer-it{
-    font-size: 25px !important;
-  }
+
 /*  footer  end 960*/
 }
-.tours_topic{
-  font-size: 36px !important;
-  line-height: 46px !important;
-}
+
 @media screen and (max-width: 768px) {
   .bg-ex-top{
-    top: 75% !important;
+    top: 48% !important;
+  }
+  .tours_topic{
+    font-weight: 800!important;
+font-size: 30px!important;
+line-height: 35px!important;
+  }
+  .organize__title{
+    font-family: 'Roboto'!important;
+    font-style: normal!important;
+    font-weight: 700!important;
+    font-size: 50px!important;
+    line-height: 59px!important;
   }
  .wrapper{
     width: 100% !important;
     margin: 0%;
   }
-  .intro_h1{
-    font-size: 70px !important;
-    line-height: 94px !important;
+  .tours__list{
+    column-gap: 3% !important;
+    flex-wrap: nowrap!important;
+    margin-left: 5%!important;
+    margin-right: 5%!important;
+    align-items: center!important;
   }
+  .tours__card-title{
+    font-weight: 800!important;
+font-size: 28px!important;
+line-height: 33px!important;
+  }
+  
   .wrapper-full{
-    width: 100% !important;
     margin: 0%;
   }
   .top__card-title1{
@@ -346,36 +377,17 @@ margin-top: 5%;
   .top__card{
     justify-content: center; 
   }
-  .top__card-title{
-    font-size: 60px !important;
-  }
-  .top__card-title2{
-    font-size: 60px !important;
-  }
+ 
   .top__card-more{
     padding: 5% 19% !important;
   }
-  .tours__card-stats{
-    margin-bottom: 10% !important;
-  }
-  .tours__card-title02{
-    font-size: 25px !important;
-    line-height: 28px !important;
-  }
-  .tours__card-title1{
-    font-size: 25px !important;
-    line-height: 28px !important;
-  }
-  .organize__info{
-    margin-top: 3%;
-  }
+ 
+ 
   .organize__img{
     display: none !important;
 
   }
-  .organize__tour{
-    padding: 40px 0px 20px 0px !important; 
-  }
+  
  
   .organize__list {
     display: flex;
@@ -401,8 +413,7 @@ margin-top: 5%;
   background: url(../img/svg/background-organize.svg) 10% 15% no-repeat scroll !important;
 }
 .organize__img_hidden1 {
-  display: flex !important;
-    margin-left: 15% !important;
+  display: grid !important;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -410,10 +421,7 @@ margin-top: 5%;
 
   flex-direction: column !important;
 }
-.tours__card-title {
-  font-size: 55px !important;
-  line-height: 70px !important;
-}
+
 .tours__card-line{
 display: none;
   
@@ -425,41 +433,29 @@ display: none;
 display: flex;
 flex-direction: column;
 }
+.tour_txt_margin{
+  z-index: 1;
+}
 .Ellipse{
   position: absolute;
-  opacity: 0.3 !important; 
-  max-width: 314px !important;
+  opacity: 0.2  !important; 
     margin: 5px 50px 2px 0px !important;
+}
+.gallery{
+  background-size: 65% !important;
+
 }
 .tours_text{
   display: flex;
 }
-.tours__card-title02{
-  font-size: 55px !important;
-  line-height: 70px !important;
-}
-.tours__card-title1{
-  font-size: 55px !important;
-  line-height: 70px !important;
-}
+
 .tour__info {
   min-width: 50%;
   height: 100%;
   
 }
 
-.way-title {
-  font-size: 95px !important;
-  line-height: 80px !important;
-}
-.way-text{
-  font-size: 110px!important;
-  line-height: 70px!important; 
-}
-.way-text1{
-  font-size: 110px!important;
-  line-height: 70px!important; 
-}
+
 
 .gallery__tour{
   display: none !important;
@@ -473,9 +469,7 @@ width: 100%;
 margin-top: 3%;
 margin-bottom: 3%;
 }
-.animation {
-  font-size: 100px !important;
-}
+
 .bashkara__tour1{
   display: flex !important;
 }
@@ -520,15 +514,14 @@ margin-bottom: 3%;
 }
 @media screen and (max-width: 677px) {
   .bg-ex-top{
-    top: 74% !important;
+    top: 50% !important;
   }
   .bg-ex-top1{
     display: block !important;
  
   }
   .organize__img_hidden1 {
-    display: flex !important;
-    margin-left: 10% !important;
+    display: grid !important;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -537,12 +530,9 @@ margin-bottom: 3%;
 }
 .top__card{
   justify-content: center;
-  padding-left: 5%;
-  padding-right: 5%;
+
 }
-.top__card-pic {
-  width: 100% !important;
-}
+
 .card-more-inf {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -557,22 +547,12 @@ margin-bottom: 3%;
 
   flex-direction: column !important;
 }
-.tours__card-title {
-  font-size: 55px !important;
-  line-height: 70px !important;
-}
+
 .tours__card-thumb{
   width: 15%;
   
 }
-.tours__card-title02{
-  font-size: 55px !important;
-  line-height: 70px !important;
-}
-.tours__card-title1{
-  font-size: 55px !important;
-  line-height: 70px !important;
-}
+
 .tour__info {
   min-width: 50%;
   height: 100%;
@@ -581,18 +561,8 @@ margin-bottom: 3%;
 .team__card-more{
   padding: 5% 5% !important;
 }
-.way-title {
-  font-size: 65px !important;
-  line-height: 1px !important;
-}
-.way-text{
-  font-size: 80px!important;
-  line-height: 60px!important; 
-}
-.way-text1{
-  font-size: 80px!important;
-  line-height: 60px!important; 
-}
+
+
 .namely__buryatia-cards{
   flex-wrap: nowrap;
   flex-direction: column;
@@ -600,14 +570,7 @@ margin-bottom: 3%;
 .namely_buryatia-thumb1{
   padding: 0!important; 
 }
-.namely_buryatia__title{
-  font-size: 20px !important;
-  line-height: 26px !important;
-}
-.namely_buryatia__title1{
-  font-size: 17px !important;
-  line-height: 20px !important;
-}
+
 .namely_buryatia-block{
   height:  100% !important;
 }
@@ -621,14 +584,14 @@ margin-bottom: 3%;
 .namely_buryatia{
   background: url(../img/svg/background-desktop20.svg) no-repeat scroll 30% 80% !important;
 }
-.namely_buryatia-text {
-  font-size: 35px !important;
-  line-height: 47px !important;
-}
+
 .namely_buryatia-text1 {
-  font-size: 19px !important;
-  line-height: 28px !important;
+ 
   padding-left: 3%;
+}
+.gallery{
+  background-size: 60% !important;
+
 }
 .gallery__tour{
   display: flex !important;
@@ -665,6 +628,7 @@ margin-bottom: 3%;
   font-size: 60px !important;
 }
 /*  footer  start 677*/
+
 .wrapper_footer{
   background: url(../img/svg/logo.svg) no-repeat ;
   background-size: 33%  !important;
@@ -708,26 +672,19 @@ margin-bottom: 3%;
 @media screen and (max-width: 480px) {
  
     .bg-ex-top{
-      top: 82% !important;
+      top: 50% !important;
     }
     .bg-ex-top1{
       display: block !important;
    
     }
-  .organize__title{
-    font-size: 40px !important;
-    line-height: 50px !important;
-  }
-  .organize__desc{
-    font-size: 25px!important;
-
-  }
+ 
+ 
   .organize__desc1{
     padding: 0px 0px 40px 0px !important;
   }
   .organize__img_hidden1 {
-    display: flex !important;
-    margin-left: 0% !important;
+    display: grid !important;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -749,42 +706,19 @@ margin-bottom: 3%;
   row-gap: 0px;
   flex-direction: column;
 }
-.tours__card-title {
-  font-size: 30px !important;
-  line-height: 50px !important;
-}
+
 .tours__card-thumb{
   width: 15%;
   
 }
-.tours__card-title02{
-  font-size: 30px !important;
-  line-height: 50px !important;
-}
-.tours__card-title1{
-  font-size: 30px !important;
-  line-height: 50px !important;
-}
-.tours__card-stats {
-  margin-bottom: 12% !important;
-}
-.tours_topic{
-  font-size: 50px !important;
-  line-height: 50px !important;
-}
+
+
+
 .way-title {
-  font-size: 46px !important;
-  line-height: 1px !important;
+
   padding: 70px 0px 70px 0px !important;
 }
-.way-text{
-  font-size: 55px!important;
-  line-height: 40px!important;
-}
-.way-text1{
-  font-size: 55px!important;
-  line-height: 40px!important; 
-}
+
 .namely_buryatia_tour{
   display: flex !important; 
   flex-direction: column !important; 
@@ -797,6 +731,10 @@ margin-bottom: 3%;
 }
 .animation{
   font-size: 50px !important;
+}
+.gallery{
+  background-size: 55% !important;
+
 }
 /*  footer  start 480*/
 .wrapper_footer{
@@ -849,22 +787,19 @@ margin-bottom: 3%;
     display: none !important;
   }
   .bg-ex-top{
-    top: 76% !important;
+    top: 50% !important;
   }
   .organize__title{
-    font-size: 27px !important;
+    
     line-height: 35px !important;
   }
   .animation{
-    font-size: 45px !important;
+   
     line-height: 100px !important;
   }
-  .organize__desc{
-    font-size: 21px!important;
-    line-height: 25px !important;
-  }
+ 
   .organize__lil {
-    font-size: 17px !important;
+   
     margin-top: 7% !important;
     text-align: center;
 }
@@ -887,62 +822,23 @@ margin-bottom: 3%;
   row-gap: 0px;
   flex-direction: column;
 }
-.top__title{
-  font-size: 36px !important;
-  line-height: 40px !important;
-}
-.top__card-title1{
-  font-size: 36px !important;
-  line-height: 40px !important;
-}
-.top__card-title{
-  font-size: 47px !important;
-  line-height: 55px !important;
-}
-.top__card-title2{
-  font-size: 47px !important;
-  line-height: 55px !important;
-}
+
 .card-more-inf {
   margin-bottom: 5% !important;
   
 }
-.tours__card-title {
-  font-size: 20px !important;
-  line-height: 30px !important;
-}
+
 .tours__card-thumb{
   width: 15%;
   
 }
-.tours__card-title02{
-  font-size: 20px !important;
-  line-height: 30px !important;
-}
-.tours__card-title1{
-  font-size: 20px !important;
-  line-height: 30px !important;
-}
-.tours__card-stats {
-  margin-bottom: 12% !important;
-}
-.tours_topic{
-  font-size: 28px !important;
-  line-height: 30px !important;
-}
+
+
 .way-title {
-  font-size: 34px !important;
-  line-height: 1px !important;
+ 
   padding: 50px 0px 50px 0px !important;
 }
-.way-text{
-  font-size: 40px!important;
-  line-height: 30px!important; 
-}
-.way-text1{
-  font-size: 40px!important;
-  line-height: 30px!important; 
-}
+
 .namely_buryatia_tour{
   display: flex !important; 
   flex-direction: column !important; 

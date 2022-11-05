@@ -9,7 +9,7 @@
       display: none;
       &.header__nav_active {
         position: fixed;
-        z-index: 110;
+        z-index: 99999;
         top: 0;
         left: 0;
         width: 100%;
