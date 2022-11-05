@@ -164,8 +164,11 @@
 /* Top places styles end */
 
 /* Tours styles start */
-
+.tours-full{
+margin: 0 auto;
+}
 .tours {
+  display: flex;
   margin-bottom: 1%;
 }
 .tours_topic {
@@ -202,6 +205,8 @@
 
 
 .tours__item{
+  display: flex;
+  align-items: flex-start;
   max-width: 418px;
 }
 .tours__list {
@@ -253,6 +258,7 @@
 }
 .tours__card-stats {
  display: flex;
+ justify-content: center;
   position: absolute;
   width: 100%;
 
@@ -261,6 +267,7 @@
 display: flex;
 }
 .tours__card-title {
+  display: flex;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-size: 28px;
@@ -268,14 +275,7 @@ display: flex;
   color: #fff;
 
 }
-.tours__card-title02 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 800;
-  font-size: 28px;
-  line-height: 33px;
-  color: #fff;
- 
-}
+
 .tours__card-title1 {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
@@ -798,7 +798,11 @@ input::placeholder {
   margin-bottom: 1%;
   background: url(../img/gallery.png) no-repeat scroll 100% 0% #37425f;
 }
-
+.gallery__info{
+display: flex;
+flex-direction: column;
+align-content: center;
+}
 .gallery-wrapper {
  margin: 0 auto;
   padding-top: 25px;

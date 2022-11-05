@@ -191,8 +191,18 @@ line-height: 23px!important;
     font-weight: 500!important; 
     font-size: 25px!important; 
   }
+  .tours__list{
+    flex-wrap: nowrap !important;
+    flex-direction: column !important;
+    align-content: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
   .top__cards{
-    flex-direction: column;
+    flex-direction: column !important;
+    align-content: center !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
   .questions-title{
     font-weight: 800!important;

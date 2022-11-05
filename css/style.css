@@ -994,8 +994,18 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
     font-weight: 500 !important;
     font-size: 25px !important;
   }
+  .tours__list {
+    flex-wrap: nowrap !important;
+    flex-direction: column !important;
+    align-content: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
   .top__cards {
-    flex-direction: column;
+    flex-direction: column !important;
+    align-content: center !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
   .questions-title {
     font-weight: 800 !important;
@@ -1727,7 +1737,12 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 
 /* Top places styles end */
 /* Tours styles start */
+.tours-full {
+  margin: 0 auto;
+}
+
 .tours {
+  display: flex;
   margin-bottom: 1%;
 }
 
@@ -1762,6 +1777,8 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .tours__item {
+  display: flex;
+  align-items: flex-start;
   max-width: 418px;
 }
 
@@ -1810,6 +1827,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 
 .tours__card-stats {
   display: flex;
+  justify-content: center;
   position: absolute;
   width: 100%;
 }
@@ -1819,14 +1837,7 @@ section.section.offer .intro-pagination .swiper-pagination-bullet-active::before
 }
 
 .tours__card-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 800;
-  font-size: 28px;
-  line-height: 33px;
-  color: #fff;
-}
-
-.tours__card-title02 {
+  display: flex;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-size: 28px;
@@ -2374,6 +2385,12 @@ input::placeholder {
 .gallery {
   margin-bottom: 1%;
   background: url(../img/gallery.png) no-repeat scroll 100% 0% #37425f;
+}
+
+.gallery__info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .gallery-wrapper {
